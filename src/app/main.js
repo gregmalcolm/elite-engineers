@@ -11,10 +11,10 @@ import ReactDOM from 'react-dom';
 import { Router, browserHistory } from 'react-router';
 
 // Routes
-import Routes from './common/components/Routes';
+import Routes from './components/Routes';
 
 // Base styling
-import './common/base.css';
+import './styles/base.css';
 
 
 // ID of the DOM element to mount app on

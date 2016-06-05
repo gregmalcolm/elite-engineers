@@ -1,13 +1,15 @@
+// TODO: Probably gonna delete this one
+
 import React from 'react';
 import { browserHistory } from 'react-router';
-import styles from './style.css';
+import styles from '../styles/login.css';
 
 
 export default class LoginPage extends React.Component {
   signUp() {
     browserHistory.push('/home');
   }
-  
+
   render() {
     return (
       <div className={styles.content}>
