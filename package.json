@@ -1,7 +1,7 @@
 {
-  "name": "essential-react",
-  "version": "0.5.0",
-  "description": "A minimal skeleton for building testable React apps using Babel",
+  "name": "elite-engineers",
+  "version": "0.1.0",
+  "description": "A webapp for managing Engineers inventory in Elite:Dangerous",
   "main": "src/main.js",
   "scripts": {
     "postinstall": "npm run build",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pheuter/essential-react.git"
+    "url": "https://github.com/gregmalcolm/elite-engineers.git"
   },
   "keywords": [
     "skeleton",
@@ -21,12 +21,12 @@
     "react",
     "quickstart"
   ],
-  "author": "Mark Fayngersh",
+  "author": "Elite Engineers Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pheuter/essential-react/issues"
+    "url": "https://github.com/gregmalcolm/elite-engineers/issues"
   },
-  "homepage": "https://github.com/pheuter/essential-react",
+  "homepage": "https://github.com/gregmalcolm/elite-engineers",
   "devDependencies": {
     "autoprefixer": "^6.0.2",
     "ava": "^0.12.0",
