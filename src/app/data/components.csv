@@ -1,0 +1,135 @@
+	Component	Type	Rarity	Subtype	Loc 1	Loc 2	Loc 3	Ship types	Info	
+	Aberrant Shield Pattern Analysis	Data	Rare	Shield Frequency System	NPC Ship Scanning				Certain Commodities can be purchased at certain stations.	John Keller's Commodities Sheet
+	Abnormal Compact Emission Data	Data	VRare	Emission Data	Ship Wreck Salvage	NPC Ship Scanning			It's said so in their description, as well as the system(s) they can be found in.	
+	Adaptive Encryptors Capture	Data	VRare	Encryption Code	Mission Reward					
+	Anomalous Bulk Scan Data	Data	VCom	Scan Data	NPC Ship Scanning				Item description also says where the item is imported from.	
+	Anomalous FSD Telemetry	Data	Com	Scan Data	NPC Ship Scanning					
+	Antimony	Ele	Rare	Raw Material	Surface Prospecting				There are now FIVE levels of rarity (called GRADES in-game). The middle one (3 leafs) is not explicitly	
+	Arsenic	Ele	Com	Raw Material	Surface Prospecting				mentionned in the item's description.	
+	Articulation Motors	Com	Std		Mission Reward					
+	Atypical Disrupted Wake Echoes	Data	VCom	Scan Data	Wake Scanning				Levels go as Very Common/Common/<Standard>/Rare/Very Rare	
+	Basic Conductors	Man	VCom	Conductor	Ship Wreck Salvage				Components also have subcategories now.	
+	Biotech Conductors	Man			Mission Reward				5 objects by subcat, one for each rarity level.	
+	Bromellite	Com	Std		Mining					
+	Cadmium	Ele	Rare	Raw Material	Surface Prospecting					
+	Carbon	Ele	VCom	Raw Material	Surface Prospecting	Ice Rings - Mining				
+	Chemical Distillery	Man	Std	Chemical Manipulator	Ship Wreck Salvage			Hauler		
+	Chemical Manipulators	Man	Rare	Chemical Manipulator	Surface POI	Ship Wreck Salvage		Hauler		
+	Chemical Processors	Man	Com	Chemical Manipulator	Ship Wreck Salvage			Hauler	Ele = Element	
+	Chemical Storage Units	Man	VCom	Chemical Manipulator	Ship Wreck Salvage				Man = Manufactured Material	
+	Chromium	Ele	Com	Raw Material	Surface Prospecting	Ice Rings - Mining			Com = Commodity	
+	Classified Scan Databanks	Data	Std	Scan Data	NPC Ship Scanning					
+	Classified Scan Fragment	Data	VRare	Scan Data	Surface POI - Data Point					
+	Classified Shield Databanks	Data	Std	Scan Data	NPC Ship Scanning					
+	CMM Composite	Com	Std		Cartier's Inheritance, Bag 7	Mission Reward				
+	Compact Composites	Man	VCom	High Density Composite	Ship Wreck Salvage		Surface POI		SOONTILL RELICS available at Cheranovsky City in NGURII.	
+	Compound Shielding	Man	Rare	Shielding	Ship Wreck Salvage			Fighter	META ALLOYS are available at Darnielle's Progress in MAIA.	
+	Conductive Ceramics	Man	Std	Conductor	Ship Wreck Salvage				If you go there, consider bringing some for others!	
+	Conductive Components	Man	Com	Conductor	Ship Wreck Salvage			Hauler		
+	Conductive Polymers	Man	Std		Ship Wreck Salvage	Surface - Crash Site			Wake scanning requires a Wake Scanner (utility mount)	
+	Configurable Components	Man								
+	Core Dynamics Composites	Man	VRare	High Density Composites	Ship Wreck Salvage	Federation Space			FINDING COMMODITIES BEST MARKETS	
+	Cracked Industrial Firmware	Data	Std	Firmware	Surface POI - Data Point				Follow this example :	
+	Crystal Shards	Man	VCom	Focusing Crystal	Ship Wreck Salvage	Surface POI			"""magnetic emitter coils"", description says ""industrial/refinery closte to leesti"" "	
+	Datamined Wake Exceptions	Data	VRare	Scan Data	Wake Scanning				-> go to leesti, show trade routes for magnetic emitter coils on galmap	
+	Decoded Emission Data	Data	Rare	Emission Data	NPC Ship Scanning				buy trade data of refinery and industrial systems in gal map	
+	Distorted Shield Cycle Recordings	Data	VCom	Shield Frequency System	NPC Ship Scanning				-> leads to chemaluk -> virts dock -> high supply (200 k+)	
+	Divergent Scan Data	Data	Rare	Scan Data	Data Point					
+	Eccentric Hyperspace Trajectories	Data	Rare	Scan Data	Ship Wreck Salvage	High Wake Scans				
+	Electrochemical Arrays	Man	Com		Ship Wreck Salvage					
+	Emergency Power Cells	Com	Std		<Akhenaten> (search 'Jepochal' instead)				HOW TO LOCATE MATS/DATA + SHIP TYPE	
+	Energy Grid Assembly	Com	Std		Pailes Enterprise, 40 Ceti	Mission Reward	Stafkarl		Actually, everything is in the description. Just read, and add your info via comments.	
+	Exceptional Scrambled Emission Data	Data	VCom	Emission Data	NPC Ship Scanning	Ship Wreck Salvage			Thanks	
+	Exhaust Manifold	Com	Std		<Run>	Deciat ; Narlikar, Kausha				
+	Exquisite Focus Crystals	Man	VRare	Focusing Crystal						
+	Filament Composites	Man	Com	High Density Composite	Ship Wreck Salvage					
+	Flawed Focus Crystals	Man	Com	Focusing Crystal	Ship Wreck Salvage					
+	Focus Crystals	Man	Std	Focusing Crystal	Ship Wreck Salvage					
+	Galvanising Alloys	Man	Com	Lightweight Alloy	Ship Wreck Salvage					
+	Germanium	Ele	Com	Raw Material	Surface Prospecting					
+	Grid Resistors	Man	VCom	Capacitor	Ship Wreck Salvage			Military/Authority		
+	Hardware Diagnostic Sensor	Com	Std		<Lei Jing>	Mission Reward	Hedin Station, Bwgcolmasci			
+	Heat Conduction Wiring	Man	VCom	Heat Exchanger	Ship Wreck Salvage			Hauler		
+	Heat Conductors	Man		Heat Exchanger						
+	Heat Dispersion Plate	Man	Com	Heat Exchanger	Ship Wreck Salvage					
+	Heat Dissipation Plate	Man		Heat Exchanger	Ship Wreck Salvage					
+	Heat Exchangers	Man		Heat Exchanger	Ship Wreck Salvage					
+	Heat Resistant Ceramics	Man	Com	Heat Resistant Alloy	Ship Wreck Salvage					
+	Heat Vanes	Man	Std		Ship Wreck Salvage					
+	Heatsink Interlink	Com	Std		<Myrbat>					
+	High Density Composites	Man	Std	High Density Composite						
+	HN Shock Mount	Com	Std		Cowper Dock, Anima					
+	Hybrid Capacitors	Man	Com	Capacitor	Ship Wreck Salvage					
+	Imperial Shielding	Man	VRare	Shielding	Ship Wreck Salvage					
+	Improvised Components	Man	VRare							
+	Inconsistent Shield Soak Analysis	Data	Com	Shield Frequency System	NPC Ship Scanning					
+	Insulating Membrane	Com								
+	Ion Distributor	Com	Std		<70 Tauri>		Mission Reward			
+	Iron	Ele	VCom	Raw Material	Surface Prospecting	Ice Rings - Mining				
+	Irregular Emission Data	Data	Com	Emission Data	Ship Wreck Salvage					
+	Magnetic Emitter Coil	Com	Std		Virts Dock, Chemaluk	Mission Reward				
+	Manganese	Ele	Com	Raw Material	Surface Prospecting					
+	Mechanical Components	Man	Std	Mechanical Component	Ship Salvage (Trade Ships)			Hauler		
+	Mechanical Equipment	Man	Com	Mechanical Component	Ship Wreck Salvage			Hauler		
+	Mechanical Scrap	Man	VCom	Mechanical Component	Ship Wreck Salvage			Hauler		
+	Mercury	Ele	Std	Raw Material	Surface Prospecting					
+	Micro Controllers	Com	Std							
+	Micro-Weave Cooling Hoses	Com			Mission Reward					
+	Military Supercapacitors	Man								
+	Modified Consumer Firmware	Data	Com	Firmware	Surface POI - Data Point	Ship Wreck Salvage				
+	Modified Embedded Firmware	Data		Firmware	Surface POI - Data Point					
+	Military Grade Alloys	Man	VRare	Heat Resistant Alloy	Ship Wreck	Mission Reward		Military/Authority		
+	Modular Terminals	Com			Mission Reward					
+	Molybdenum	Ele	Std	Raw Material	Surface Prospecting					
+	Nanobreakers	Com	Std		Mission Reward					
+	Neofabric Insulation	Com			Mission Reward					
+	Nickel	Ele	VCom	Raw Material	Surface Prospecting	Ice Rings - Mining				
+	Niobium	Ele	Std	Raw Material	Surface Prospecting					
+	Open Symmetric Keys	Data	Std	Encryption Code	POI Data Point	Ship Wreck Salvage				
+	Osmium	Com	Std		Mining					
+	Peculiar Shield Frequency Data	Data	VRare	Shield Frequency System	NPC Ship Scanning					
+	Pharmaceutil Isolators	Man								
+	Phase Alloys	Man	Std	Lightweight Alloy	Ship Wreck Salvage					
+	Phosphorus	Ele	VCom	Raw Material	Surface Prospecting	Ice Rings - Mining				
+	Platinum	Com	Std		Mining					
+	Polonium	Ele	Rare	Raw Material	Surface Prospecting					
+	Polymer Capacitors	Man	Rare	Capacitor	Ship Wreck Salvage					
+	Power Converter	Com	Std		Mullane Terminal, Bag 7	<Lakota>				
+	Power Transfer Bus	Com	Std		Hoften Enterprise, Inheretii	Bunnell Dock, Nogambe				
+	Praseodymium	Com	Std		Mining	Mining Mission Reward (yes)			Mission requiring to deliver methanol monohydrate	
+	Precipitated Alloys	Man	Std	Heat Resistant Alloy	Ship Wreck Salvage					
+	Proprietary Composites	Man	Rare	High Density Composites	Ship Wreck Salvage					
+	Proto Heat Radiators	Man								
+	Proto Light Alloys	Man	Rare	Lightweight Alloy	Ship Wreck Salvage					
+	Proto Radiolic Alloys	Man	VRare	Lightweight Alloy	Ship Wreck Salvage					
+	Radiation Baffle	Com	Std		Nespoli Hub, Wailaroju	<Heget>				
+	Refined Focus Crystals	Man	Rare	Focusing Crystal	Ship Wreck Salvage					
+	Reinforced Mounting Plate	Com	Std		<Eurybia>					
+	Ruthenium	Ele	Rare	Raw Material	Surface Prospecting					
+	Salvaged Alloys	Man	VCom	Lightweight Alloy	Ship Wreck Salvage			Fighter		
+	Samarium	Com	Std		Mining					
+	Security Firmware Patch	Data	Rare	Firmware						
+	Selenium	Ele	Com	Raw Material	Surface Prospecting					
+	Shield Emitters	Man	Com	Shielding	Ship Wreck Salvage		Surface POI	Fighter		
+	Shielding Sensors	Man	Std	Shielding						
+	Soontil Relics	Com	Rare		Cheranovksy City, Nguri					
+	Specialised Legacy Firmware	Data	VCom	Firmware	Ship Wreck Salvage	Mission Reward				
+	Strange Wake Solutions	Data	Std	Scan Data	Wake Scanning	Mission Reward				
+	Sulphur	Ele	VCom	Raw Material	Surface Prospecting	Ice Rings - Mining				
+	Tagged Encryption Codes	Data	Com	Encryption Code	Mission Reward					
+	Technetium	Ele	Rare	Raw Material	Surface Prospecting					
+	Telemetry Suite	Com			Mission Reward					
+	Tellurium	Ele	Rare	Raw Material	Surface Prospecting					
+	Tempered Alloys	Man	VCom	Heat Resistant Alloy	Ship Wreck Salvage					
+	Thermic Alloys	Man								
+	Tin	Ele	Std	Raw Material	Surface Prospecting					
+	Tungsten	Ele	Std	Raw Material	Surface Prospecting					
+	Unexpected Emission Data	Data	Std	Emission Data	NPC Ship Scanning					
+	Unidentified Scan Archives	Data	Com	Scan Data	NPC Ship Scanning					
+	Unknown Fragment	Man	VRare		Destroy an UA					
+	Untypical Shield Scans	Data	Std	Shield Frequency System	NPC Ship Scanning					
+	Vanadium	Ele	Com	Raw Material	Surface Prospecting	Ice Rings - Mining				
+	Worn Shield Emitters	Man	VCom	Shielding	Ship Wreck Salvage					
+	Yttrium	Ele	Rare	Raw Material	Surface Prospecting					
+	Zinc	Ele	Com	Raw Material	Surface Prospecting					
+	Zirconium	Ele	Com	Raw Material	Surface Prospecting	Mining				

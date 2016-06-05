@@ -48,7 +48,7 @@ module.exports = {
 
   // Automatically transform files with these extensions
   resolve: {
-    extensions: ['', '.js', '.jsx', '.css']
+    extensions: ['', '.js', '.jsx', '.json', '.css']
   },
 
   // Additional plugins for CSS post processing using postcss-loader
