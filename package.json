@@ -2,7 +2,7 @@
   "name": "elite-engineers",
   "version": "0.1.0",
   "description": "A webapp for managing Engineers inventory in Elite:Dangerous",
-  "main": "src/main.js",
+  "main": "src/app/main.js",
   "scripts": {
     "postinstall": "npm run build",
     "server": "node start.js",

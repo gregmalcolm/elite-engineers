@@ -16,11 +16,11 @@ module.exports = {
   // Efficiently evaluate modules with source maps
   devtool: "eval",
 
-  // Set entry point to ./src/main and include necessary files for hot load
+  // Set entry point to ./src/app/main and include necessary files for hot load
   entry:  [
     "webpack-dev-server/client?http://localhost:9090",
     "webpack/hot/only-dev-server",
-    "./src/main"
+    "./src/app/main"
   ],
 
   // This will not actually create a bundle.js file in ./build. It is used
