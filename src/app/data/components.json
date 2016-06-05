@@ -1,1744 +1,1743 @@
 [
     {
-
-        "Component": "Aberrant Shield Pattern Analysis",
-        "Type": "Data",
-        "Rarity": "Rare",
-        "Subtype": "Shield Frequency System",
-        "Loc 1": "NPC Ship Scanning",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "Certain Commodities can be purchased at certain stations.",
-        "Info2": "John Keller's Commodities Sheet"
-    },
-    {
-
-        "Component": "Abnormal Compact Emission Data",
-        "Type": "Data",
-        "Rarity": "VRare",
-        "Subtype": "Emission Data",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "NPC Ship Scanning",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "It's said so in their description, as well as the system(s) they can be found in.",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Adaptive Encryptors Capture",
-        "Type": "Data",
-        "Rarity": "VRare",
-        "Subtype": "Encryption Code",
-        "Loc 1": "Mission Reward",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Anomalous Bulk Scan Data",
-        "Type": "Data",
-        "Rarity": "VCom",
-        "Subtype": "Scan Data",
-        "Loc 1": "NPC Ship Scanning",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "Item description also says where the item is imported from.",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Anomalous FSD Telemetry",
-        "Type": "Data",
-        "Rarity": "Com",
-        "Subtype": "Scan Data",
-        "Loc 1": "NPC Ship Scanning",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Antimony",
-        "Type": "Ele",
-        "Rarity": "Rare",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "There are now FIVE levels of rarity (called GRADES in-game). The middle one (3 leafs) is not explicitly",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Arsenic",
-        "Type": "Ele",
-        "Rarity": "Com",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "mentionned in the item's description.",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Articulation Motors",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Mission Reward",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Atypical Disrupted Wake Echoes",
-        "Type": "Data",
-        "Rarity": "VCom",
-        "Subtype": "Scan Data",
-        "Loc 1": "Wake Scanning",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "Levels go as Very Common/Common/<Standard>/Rare/Very Rare",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Basic Conductors",
-        "Type": "Man",
-        "Rarity": "VCom",
-        "Subtype": "Conductor",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "Components also have subcategories now.",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Biotech Conductors",
-        "Type": "Man",
-        "Rarity": "",
-        "Subtype": "",
-        "Loc 1": "Mission Reward",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "5 objects by subcat, one for each rarity level.",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Bromellite",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Mining",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Cadmium",
-        "Type": "Ele",
-        "Rarity": "Rare",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Carbon",
-        "Type": "Ele",
-        "Rarity": "VCom",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "Ice Rings - Mining",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Chemical Distillery",
-        "Type": "Man",
-        "Rarity": "Std",
-        "Subtype": "Chemical Manipulator",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "Hauler",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Chemical Manipulators",
-        "Type": "Man",
-        "Rarity": "Rare",
-        "Subtype": "Chemical Manipulator",
-        "Loc 1": "Surface POI",
-        "Loc 2": "Ship Wreck Salvage",
-        "Loc 3": "",
-        "Ship types": "Hauler",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Chemical Processors",
-        "Type": "Man",
-        "Rarity": "Com",
-        "Subtype": "Chemical Manipulator",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "Hauler",
-        "Info": "Ele = Element",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Chemical Storage Units",
-        "Type": "Man",
-        "Rarity": "VCom",
-        "Subtype": "Chemical Manipulator",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "Man = Manufactured Material",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Chromium",
-        "Type": "Ele",
-        "Rarity": "Com",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "Ice Rings - Mining",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "Com = Commodity",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Classified Scan Databanks",
-        "Type": "Data",
-        "Rarity": "Std",
-        "Subtype": "Scan Data",
-        "Loc 1": "NPC Ship Scanning",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Classified Scan Fragment",
-        "Type": "Data",
-        "Rarity": "VRare",
-        "Subtype": "Scan Data",
-        "Loc 1": "Surface POI - Data Point",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Classified Shield Databanks",
-        "Type": "Data",
-        "Rarity": "Std",
-        "Subtype": "Scan Data",
-        "Loc 1": "NPC Ship Scanning",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "CMM Composite",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Cartier's Inheritance, Bag 7",
-        "Loc 2": "Mission Reward",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Compact Composites",
-        "Type": "Man",
-        "Rarity": "VCom",
-        "Subtype": "High Density Composite",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "Surface POI",
-        "Ship types": "",
-        "Info": "SOONTILL RELICS available at Cheranovsky City in NGURII.",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Compound Shielding",
-        "Type": "Man",
-        "Rarity": "Rare",
-        "Subtype": "Shielding",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "Fighter",
-        "Info": "META ALLOYS are available at Darnielle's Progress in MAIA.",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Conductive Ceramics",
-        "Type": "Man",
-        "Rarity": "Std",
-        "Subtype": "Conductor",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "If you go there, consider bringing some for others!",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Conductive Components",
-        "Type": "Man",
-        "Rarity": "Com",
-        "Subtype": "Conductor",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "Hauler",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Conductive Polymers",
-        "Type": "Man",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "Surface - Crash Site",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "Wake scanning requires a Wake Scanner (utility mount)",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Configurable Components",
-        "Type": "Man",
-        "Rarity": "",
-        "Subtype": "",
-        "Loc 1": "",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Core Dynamics Composites",
-        "Type": "Man",
-        "Rarity": "VRare",
-        "Subtype": "High Density Composites",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "Federation Space",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "FINDING COMMODITIES BEST MARKETS",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Cracked Industrial Firmware",
-        "Type": "Data",
-        "Rarity": "Std",
-        "Subtype": "Firmware",
-        "Loc 1": "Surface POI - Data Point",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "Follow this example :",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Crystal Shards",
-        "Type": "Man",
-        "Rarity": "VCom",
-        "Subtype": "Focusing Crystal",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "Surface POI",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "\"magnetic emitter coils\", description says \"industrial/refinery closte to leesti\" ",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Datamined Wake Exceptions",
-        "Type": "Data",
-        "Rarity": "VRare",
-        "Subtype": "Scan Data",
-        "Loc 1": "Wake Scanning",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "-> go to leesti, show trade routes for magnetic emitter coils on galmap",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Decoded Emission Data",
-        "Type": "Data",
-        "Rarity": "Rare",
-        "Subtype": "Emission Data",
-        "Loc 1": "NPC Ship Scanning",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "buy trade data of refinery and industrial systems in gal map",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Distorted Shield Cycle Recordings",
-        "Type": "Data",
-        "Rarity": "VCom",
-        "Subtype": "Shield Frequency System",
-        "Loc 1": "NPC Ship Scanning",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "-> leads to chemaluk -> virts dock -> high supply (200 k+)",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Divergent Scan Data",
-        "Type": "Data",
-        "Rarity": "Rare",
-        "Subtype": "Scan Data",
-        "Loc 1": "Data Point",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Eccentric Hyperspace Trajectories",
-        "Type": "Data",
-        "Rarity": "Rare",
-        "Subtype": "Scan Data",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "High Wake Scans",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Electrochemical Arrays",
-        "Type": "Man",
-        "Rarity": "Com",
-        "Subtype": "",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Emergency Power Cells",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "<Akhenaten> (search 'Jepochal' instead)",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "HOW TO LOCATE MATS/DATA + SHIP TYPE",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Energy Grid Assembly",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Pailes Enterprise, 40 Ceti",
-        "Loc 2": "Mission Reward",
-        "Loc 3": "Stafkarl",
-        "Ship types": "",
-        "Info": "Actually, everything is in the description. Just read, and add your info via comments.",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Exceptional Scrambled Emission Data",
-        "Type": "Data",
-        "Rarity": "VCom",
-        "Subtype": "Emission Data",
-        "Loc 1": "NPC Ship Scanning",
-        "Loc 2": "Ship Wreck Salvage",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "Thanks",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Exhaust Manifold",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "<Run>",
-        "Loc 2": "Deciat ; Narlikar, Kausha",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Exquisite Focus Crystals",
-        "Type": "Man",
-        "Rarity": "VRare",
-        "Subtype": "Focusing Crystal",
-        "Loc 1": "",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Filament Composites",
-        "Type": "Man",
-        "Rarity": "Com",
-        "Subtype": "High Density Composite",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Flawed Focus Crystals",
-        "Type": "Man",
-        "Rarity": "Com",
-        "Subtype": "Focusing Crystal",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Focus Crystals",
-        "Type": "Man",
-        "Rarity": "Std",
-        "Subtype": "Focusing Crystal",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Galvanising Alloys",
-        "Type": "Man",
-        "Rarity": "Com",
-        "Subtype": "Lightweight Alloy",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Germanium",
-        "Type": "Ele",
-        "Rarity": "Com",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Grid Resistors",
-        "Type": "Man",
-        "Rarity": "VCom",
-        "Subtype": "Capacitor",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "Military/Authority",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Hardware Diagnostic Sensor",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "<Lei Jing>",
-        "Loc 2": "Mission Reward",
-        "Loc 3": "Hedin Station, Bwgcolmasci",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Heat Conduction Wiring",
-        "Type": "Man",
-        "Rarity": "VCom",
-        "Subtype": "Heat Exchanger",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "Hauler",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Heat Conductors",
-        "Type": "Man",
-        "Rarity": "",
-        "Subtype": "Heat Exchanger",
-        "Loc 1": "",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Heat Dispersion Plate",
-        "Type": "Man",
-        "Rarity": "Com",
-        "Subtype": "Heat Exchanger",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Heat Dissipation Plate",
-        "Type": "Man",
-        "Rarity": "",
-        "Subtype": "Heat Exchanger",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Heat Exchangers",
-        "Type": "Man",
-        "Rarity": "",
-        "Subtype": "Heat Exchanger",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Heat Resistant Ceramics",
-        "Type": "Man",
-        "Rarity": "Com",
-        "Subtype": "Heat Resistant Alloy",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Heat Vanes",
-        "Type": "Man",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Heatsink Interlink",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "<Myrbat>",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "High Density Composites",
-        "Type": "Man",
-        "Rarity": "Std",
-        "Subtype": "High Density Composite",
-        "Loc 1": "",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "HN Shock Mount",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Cowper Dock, Anima",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Hybrid Capacitors",
-        "Type": "Man",
-        "Rarity": "Com",
-        "Subtype": "Capacitor",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Imperial Shielding",
-        "Type": "Man",
-        "Rarity": "VRare",
-        "Subtype": "Shielding",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Improvised Components",
-        "Type": "Man",
-        "Rarity": "VRare",
-        "Subtype": "",
-        "Loc 1": "",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Inconsistent Shield Soak Analysis",
-        "Type": "Data",
-        "Rarity": "Com",
-        "Subtype": "Shield Frequency System",
-        "Loc 1": "NPC Ship Scanning",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Insulating Membrane",
-        "Type": "Com",
-        "Rarity": "",
-        "Subtype": "",
-        "Loc 1": "",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Ion Distributor",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "<70 Tauri>",
-        "Loc 2": "",
-        "Loc 3": "Mission Reward",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Iron",
-        "Type": "Ele",
-        "Rarity": "VCom",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "Ice Rings - Mining",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Irregular Emission Data",
-        "Type": "Data",
-        "Rarity": "Com",
-        "Subtype": "Emission Data",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Magnetic Emitter Coil",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Virts Dock, Chemaluk",
-        "Loc 2": "Mission Reward",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Manganese",
-        "Type": "Ele",
-        "Rarity": "Com",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Mechanical Components",
-        "Type": "Man",
-        "Rarity": "Std",
-        "Subtype": "Mechanical Component",
-        "Loc 1": "Ship Salvage (Trade Ships)",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "Hauler",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Mechanical Equipment",
-        "Type": "Man",
-        "Rarity": "Com",
-        "Subtype": "Mechanical Component",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "Hauler",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Mechanical Scrap",
-        "Type": "Man",
-        "Rarity": "VCom",
-        "Subtype": "Mechanical Component",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "Hauler",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Mercury",
-        "Type": "Ele",
-        "Rarity": "Std",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Micro Controllers",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Micro-Weave Cooling Hoses",
-        "Type": "Com",
-        "Rarity": "",
-        "Subtype": "",
-        "Loc 1": "Mission Reward",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Military Supercapacitors",
-        "Type": "Man",
-        "Rarity": "",
-        "Subtype": "",
-        "Loc 1": "",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Modified Consumer Firmware",
-        "Type": "Data",
-        "Rarity": "Com",
-        "Subtype": "Firmware",
-        "Loc 1": "Surface POI - Data Point",
-        "Loc 2": "Ship Wreck Salvage",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Modified Embedded Firmware",
-        "Type": "Data",
-        "Rarity": "",
-        "Subtype": "Firmware",
-        "Loc 1": "Surface POI - Data Point",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Military Grade Alloys",
-        "Type": "Man",
-        "Rarity": "VRare",
-        "Subtype": "Heat Resistant Alloy",
-        "Loc 1": "Ship Wreck",
-        "Loc 2": "Mission Reward",
-        "Loc 3": "",
-        "Ship types": "Military/Authority",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Modular Terminals",
-        "Type": "Com",
-        "Rarity": "",
-        "Subtype": "",
-        "Loc 1": "Mission Reward",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Molybdenum",
-        "Type": "Ele",
-        "Rarity": "Std",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Nanobreakers",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Mission Reward",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Neofabric Insulation",
-        "Type": "Com",
-        "Rarity": "",
-        "Subtype": "",
-        "Loc 1": "Mission Reward",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Nickel",
-        "Type": "Ele",
-        "Rarity": "VCom",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "Ice Rings - Mining",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Niobium",
-        "Type": "Ele",
-        "Rarity": "Std",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Open Symmetric Keys",
-        "Type": "Data",
-        "Rarity": "Std",
-        "Subtype": "Encryption Code",
-        "Loc 1": "POI Data Point",
-        "Loc 2": "Ship Wreck Salvage",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Osmium",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Mining",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Peculiar Shield Frequency Data",
-        "Type": "Data",
-        "Rarity": "VRare",
-        "Subtype": "Shield Frequency System",
-        "Loc 1": "NPC Ship Scanning",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Pharmaceutil Isolators",
-        "Type": "Man",
-        "Rarity": "",
-        "Subtype": "",
-        "Loc 1": "",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Phase Alloys",
-        "Type": "Man",
-        "Rarity": "Std",
-        "Subtype": "Lightweight Alloy",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Phosphorus",
-        "Type": "Ele",
-        "Rarity": "VCom",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "Ice Rings - Mining",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Platinum",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Mining",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Polonium",
-        "Type": "Ele",
-        "Rarity": "Rare",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Polymer Capacitors",
-        "Type": "Man",
-        "Rarity": "Rare",
-        "Subtype": "Capacitor",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Power Converter",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Mullane Terminal, Bag 7",
-        "Loc 2": "<Lakota>",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Power Transfer Bus",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Hoften Enterprise, Inheretii",
-        "Loc 2": "Bunnell Dock, Nogambe",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Praseodymium",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Mining",
-        "Loc 2": "Mining Mission Reward (yes)",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "Mission requiring to deliver methanol monohydrate",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Precipitated Alloys",
-        "Type": "Man",
-        "Rarity": "Std",
-        "Subtype": "Heat Resistant Alloy",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Proprietary Composites",
-        "Type": "Man",
-        "Rarity": "Rare",
-        "Subtype": "High Density Composites",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Proto Heat Radiators",
-        "Type": "Man",
-        "Rarity": "",
-        "Subtype": "",
-        "Loc 1": "",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Proto Light Alloys",
-        "Type": "Man",
-        "Rarity": "Rare",
-        "Subtype": "Lightweight Alloy",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Proto Radiolic Alloys",
-        "Type": "Man",
-        "Rarity": "VRare",
-        "Subtype": "Lightweight Alloy",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Radiation Baffle",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Nespoli Hub, Wailaroju",
-        "Loc 2": "<Heget>",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Refined Focus Crystals",
-        "Type": "Man",
-        "Rarity": "Rare",
-        "Subtype": "Focusing Crystal",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Reinforced Mounting Plate",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "<Eurybia>",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Ruthenium",
-        "Type": "Ele",
-        "Rarity": "Rare",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Salvaged Alloys",
-        "Type": "Man",
-        "Rarity": "VCom",
-        "Subtype": "Lightweight Alloy",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "Fighter",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Samarium",
-        "Type": "Com",
-        "Rarity": "Std",
-        "Subtype": "",
-        "Loc 1": "Mining",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Security Firmware Patch",
-        "Type": "Data",
-        "Rarity": "Rare",
-        "Subtype": "Firmware",
-        "Loc 1": "",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Selenium",
-        "Type": "Ele",
-        "Rarity": "Com",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Shield Emitters",
-        "Type": "Man",
-        "Rarity": "Com",
-        "Subtype": "Shielding",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "Surface POI",
-        "Ship types": "Fighter",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Shielding Sensors",
-        "Type": "Man",
-        "Rarity": "Std",
-        "Subtype": "Shielding",
-        "Loc 1": "",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Soontil Relics",
-        "Type": "Com",
-        "Rarity": "Rare",
-        "Subtype": "",
-        "Loc 1": "Cheranovksy City, Nguri",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Specialised Legacy Firmware",
-        "Type": "Data",
-        "Rarity": "VCom",
-        "Subtype": "Firmware",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "Mission Reward",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Strange Wake Solutions",
-        "Type": "Data",
-        "Rarity": "Std",
-        "Subtype": "Scan Data",
-        "Loc 1": "Wake Scanning",
-        "Loc 2": "Mission Reward",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Sulphur",
-        "Type": "Ele",
-        "Rarity": "VCom",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "Ice Rings - Mining",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Tagged Encryption Codes",
-        "Type": "Data",
-        "Rarity": "Com",
-        "Subtype": "Encryption Code",
-        "Loc 1": "Mission Reward",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Technetium",
-        "Type": "Ele",
-        "Rarity": "Rare",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Telemetry Suite",
-        "Type": "Com",
-        "Rarity": "",
-        "Subtype": "",
-        "Loc 1": "Mission Reward",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Tellurium",
-        "Type": "Ele",
-        "Rarity": "Rare",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Tempered Alloys",
-        "Type": "Man",
-        "Rarity": "VCom",
-        "Subtype": "Heat Resistant Alloy",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Thermic Alloys",
-        "Type": "Man",
-        "Rarity": "",
-        "Subtype": "",
-        "Loc 1": "",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Tin",
-        "Type": "Ele",
-        "Rarity": "Std",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Tungsten",
-        "Type": "Ele",
-        "Rarity": "Std",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Unexpected Emission Data",
-        "Type": "Data",
-        "Rarity": "Std",
-        "Subtype": "Emission Data",
-        "Loc 1": "NPC Ship Scanning",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Unidentified Scan Archives",
-        "Type": "Data",
-        "Rarity": "Com",
-        "Subtype": "Scan Data",
-        "Loc 1": "NPC Ship Scanning",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Unknown Fragment",
-        "Type": "Man",
-        "Rarity": "VRare",
-        "Subtype": "",
-        "Loc 1": "Destroy an UA",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Untypical Shield Scans",
-        "Type": "Data",
-        "Rarity": "Std",
-        "Subtype": "Shield Frequency System",
-        "Loc 1": "NPC Ship Scanning",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Vanadium",
-        "Type": "Ele",
-        "Rarity": "Com",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "Ice Rings - Mining",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Worn Shield Emitters",
-        "Type": "Man",
-        "Rarity": "VCom",
-        "Subtype": "Shielding",
-        "Loc 1": "Ship Wreck Salvage",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Yttrium",
-        "Type": "Ele",
-        "Rarity": "Rare",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Zinc",
-        "Type": "Ele",
-        "Rarity": "Com",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
-    },
-    {
-
-        "Component": "Zirconium",
-        "Type": "Ele",
-        "Rarity": "Com",
-        "Subtype": "Raw Material",
-        "Loc 1": "Surface Prospecting",
-        "Loc 2": "Mining",
-        "Loc 3": "",
-        "Ship types": "",
-        "Info": "",
-        "Info2": ""
+        "name": "Aberrant Shield Pattern Analysis",
+        "type": "Data",
+        "rarity": "Rare",
+        "subtype": "Shield Frequency System",
+        "loc 1": "NPC Ship Scanning",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "Certain Commodities can be purchased at certain stations.",
+        "info2": "John Keller's Commodities Sheet"
+    },
+    {
+
+        "name": "Abnormal Compact Emission Data",
+        "type": "Data",
+        "rarity": "VRare",
+        "subtype": "Emission Data",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "NPC Ship Scanning",
+        "loc 3": "",
+        "ship types": "",
+        "info": "It's said so in their description, as well as the system(s) they can be found in.",
+        "info2": ""
+    },
+    {
+
+        "name": "Adaptive Encryptors Capture",
+        "type": "Data",
+        "rarity": "VRare",
+        "subtype": "Encryption Code",
+        "loc 1": "Mission Reward",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Anomalous Bulk Scan Data",
+        "type": "Data",
+        "rarity": "VCom",
+        "subtype": "Scan Data",
+        "loc 1": "NPC Ship Scanning",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "Item description also says where the item is imported from.",
+        "info2": ""
+    },
+    {
+
+        "name": "Anomalous FSD Telemetry",
+        "type": "Data",
+        "rarity": "Com",
+        "subtype": "Scan Data",
+        "loc 1": "NPC Ship Scanning",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Antimony",
+        "type": "Ele",
+        "rarity": "Rare",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "There are now FIVE levels of rarity (called GRADES in-game). The middle one (3 leafs) is not explicitly",
+        "info2": ""
+    },
+    {
+
+        "name": "Arsenic",
+        "type": "Ele",
+        "rarity": "Com",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "mentionned in the item's description.",
+        "info2": ""
+    },
+    {
+
+        "name": "Articulation Motors",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Mission Reward",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Atypical Disrupted Wake Echoes",
+        "type": "Data",
+        "rarity": "VCom",
+        "subtype": "Scan Data",
+        "loc 1": "Wake Scanning",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "Levels go as Very Common/Common/<Standard>/Rare/Very Rare",
+        "info2": ""
+    },
+    {
+
+        "name": "Basic Conductors",
+        "type": "Man",
+        "rarity": "VCom",
+        "subtype": "Conductor",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "Components also have subcategories now.",
+        "info2": ""
+    },
+    {
+
+        "name": "Biotech Conductors",
+        "type": "Man",
+        "rarity": "",
+        "subtype": "",
+        "loc 1": "Mission Reward",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "5 objects by subcat, one for each rarity level.",
+        "info2": ""
+    },
+    {
+
+        "name": "Bromellite",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Mining",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Cadmium",
+        "type": "Ele",
+        "rarity": "Rare",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Carbon",
+        "type": "Ele",
+        "rarity": "VCom",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "Ice Rings - Mining",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Chemical Distillery",
+        "type": "Man",
+        "rarity": "Std",
+        "subtype": "Chemical Manipulator",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "Hauler",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Chemical Manipulators",
+        "type": "Man",
+        "rarity": "Rare",
+        "subtype": "Chemical Manipulator",
+        "loc 1": "Surface POI",
+        "loc 2": "Ship Wreck Salvage",
+        "loc 3": "",
+        "ship types": "Hauler",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Chemical Processors",
+        "type": "Man",
+        "rarity": "Com",
+        "subtype": "Chemical Manipulator",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "Hauler",
+        "info": "Ele = Element",
+        "info2": ""
+    },
+    {
+
+        "name": "Chemical Storage Units",
+        "type": "Man",
+        "rarity": "VCom",
+        "subtype": "Chemical Manipulator",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "Man = Manufactured Material",
+        "info2": ""
+    },
+    {
+
+        "name": "Chromium",
+        "type": "Ele",
+        "rarity": "Com",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "Ice Rings - Mining",
+        "loc 3": "",
+        "ship types": "",
+        "info": "Com = Commodity",
+        "info2": ""
+    },
+    {
+
+        "name": "Classified Scan Databanks",
+        "type": "Data",
+        "rarity": "Std",
+        "subtype": "Scan Data",
+        "loc 1": "NPC Ship Scanning",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Classified Scan Fragment",
+        "type": "Data",
+        "rarity": "VRare",
+        "subtype": "Scan Data",
+        "loc 1": "Surface POI - Data Point",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Classified Shield Databanks",
+        "type": "Data",
+        "rarity": "Std",
+        "subtype": "Scan Data",
+        "loc 1": "NPC Ship Scanning",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "CMM Composite",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Cartier's Inheritance, Bag 7",
+        "loc 2": "Mission Reward",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Compact Composites",
+        "type": "Man",
+        "rarity": "VCom",
+        "subtype": "High Density Composite",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "Surface POI",
+        "ship types": "",
+        "info": "SOONTILL RELICS available at Cheranovsky City in NGURII.",
+        "info2": ""
+    },
+    {
+
+        "name": "Compound Shielding",
+        "type": "Man",
+        "rarity": "Rare",
+        "subtype": "Shielding",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "Fighter",
+        "info": "META ALLOYS are available at Darnielle's Progress in MAIA.",
+        "info2": ""
+    },
+    {
+
+        "name": "Conductive Ceramics",
+        "type": "Man",
+        "rarity": "Std",
+        "subtype": "Conductor",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "If you go there, consider bringing some for others!",
+        "info2": ""
+    },
+    {
+
+        "name": "Conductive Components",
+        "type": "Man",
+        "rarity": "Com",
+        "subtype": "Conductor",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "Hauler",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Conductive Polymers",
+        "type": "Man",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "Surface - Crash Site",
+        "loc 3": "",
+        "ship types": "",
+        "info": "Wake scanning requires a Wake Scanner (utility mount)",
+        "info2": ""
+    },
+    {
+
+        "name": "Configurable Components",
+        "type": "Man",
+        "rarity": "",
+        "subtype": "",
+        "loc 1": "",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Core Dynamics Composites",
+        "type": "Man",
+        "rarity": "VRare",
+        "subtype": "High Density Composites",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "Federation Space",
+        "loc 3": "",
+        "ship types": "",
+        "info": "FINDING COMMODITIES BEST MARKETS",
+        "info2": ""
+    },
+    {
+
+        "name": "Cracked Industrial Firmware",
+        "type": "Data",
+        "rarity": "Std",
+        "subtype": "Firmware",
+        "loc 1": "Surface POI - Data Point",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "Follow this example :",
+        "info2": ""
+    },
+    {
+
+        "name": "Crystal Shards",
+        "type": "Man",
+        "rarity": "VCom",
+        "subtype": "Focusing Crystal",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "Surface POI",
+        "loc 3": "",
+        "ship types": "",
+        "info": "\"magnetic emitter coils\", description says \"industrial/refinery closte to leesti\" ",
+        "info2": ""
+    },
+    {
+
+        "name": "Datamined Wake Exceptions",
+        "type": "Data",
+        "rarity": "VRare",
+        "subtype": "Scan Data",
+        "loc 1": "Wake Scanning",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "-> go to leesti, show trade routes for magnetic emitter coils on galmap",
+        "info2": ""
+    },
+    {
+
+        "name": "Decoded Emission Data",
+        "type": "Data",
+        "rarity": "Rare",
+        "subtype": "Emission Data",
+        "loc 1": "NPC Ship Scanning",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "buy trade data of refinery and industrial systems in gal map",
+        "info2": ""
+    },
+    {
+
+        "name": "Distorted Shield Cycle Recordings",
+        "type": "Data",
+        "rarity": "VCom",
+        "subtype": "Shield Frequency System",
+        "loc 1": "NPC Ship Scanning",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "-> leads to chemaluk -> virts dock -> high supply (200 k+)",
+        "info2": ""
+    },
+    {
+
+        "name": "Divergent Scan Data",
+        "type": "Data",
+        "rarity": "Rare",
+        "subtype": "Scan Data",
+        "loc 1": "Data Point",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Eccentric Hyperspace Trajectories",
+        "type": "Data",
+        "rarity": "Rare",
+        "subtype": "Scan Data",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "High Wake Scans",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Electrochemical Arrays",
+        "type": "Man",
+        "rarity": "Com",
+        "subtype": "",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Emergency Power Cells",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "<Akhenaten> (search 'Jepochal' instead)",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "HOW TO LOCATE MATS/DATA + SHIP TYPE",
+        "info2": ""
+    },
+    {
+
+        "name": "Energy Grid Assembly",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Pailes Enterprise, 40 Ceti",
+        "loc 2": "Mission Reward",
+        "loc 3": "Stafkarl",
+        "ship types": "",
+        "info": "Actually, everything is in the description. Just read, and add your info via comments.",
+        "info2": ""
+    },
+    {
+
+        "name": "Exceptional Scrambled Emission Data",
+        "type": "Data",
+        "rarity": "VCom",
+        "subtype": "Emission Data",
+        "loc 1": "NPC Ship Scanning",
+        "loc 2": "Ship Wreck Salvage",
+        "loc 3": "",
+        "ship types": "",
+        "info": "Thanks",
+        "info2": ""
+    },
+    {
+
+        "name": "Exhaust Manifold",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "<Run>",
+        "loc 2": "Deciat ; Narlikar, Kausha",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Exquisite Focus Crystals",
+        "type": "Man",
+        "rarity": "VRare",
+        "subtype": "Focusing Crystal",
+        "loc 1": "",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Filament Composites",
+        "type": "Man",
+        "rarity": "Com",
+        "subtype": "High Density Composite",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Flawed Focus Crystals",
+        "type": "Man",
+        "rarity": "Com",
+        "subtype": "Focusing Crystal",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Focus Crystals",
+        "type": "Man",
+        "rarity": "Std",
+        "subtype": "Focusing Crystal",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Galvanising Alloys",
+        "type": "Man",
+        "rarity": "Com",
+        "subtype": "Lightweight Alloy",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Germanium",
+        "type": "Ele",
+        "rarity": "Com",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Grid Resistors",
+        "type": "Man",
+        "rarity": "VCom",
+        "subtype": "Capacitor",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "Military/Authority",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Hardware Diagnostic Sensor",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "<Lei Jing>",
+        "loc 2": "Mission Reward",
+        "loc 3": "Hedin Station, Bwgcolmasci",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Heat Conduction Wiring",
+        "type": "Man",
+        "rarity": "VCom",
+        "subtype": "Heat Exchanger",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "Hauler",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Heat Conductors",
+        "type": "Man",
+        "rarity": "",
+        "subtype": "Heat Exchanger",
+        "loc 1": "",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Heat Dispersion Plate",
+        "type": "Man",
+        "rarity": "Com",
+        "subtype": "Heat Exchanger",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Heat Dissipation Plate",
+        "type": "Man",
+        "rarity": "",
+        "subtype": "Heat Exchanger",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Heat Exchangers",
+        "type": "Man",
+        "rarity": "",
+        "subtype": "Heat Exchanger",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Heat Resistant Ceramics",
+        "type": "Man",
+        "rarity": "Com",
+        "subtype": "Heat Resistant Alloy",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Heat Vanes",
+        "type": "Man",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Heatsink Interlink",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "<Myrbat>",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "High Density Composites",
+        "type": "Man",
+        "rarity": "Std",
+        "subtype": "High Density Composite",
+        "loc 1": "",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "HN Shock Mount",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Cowper Dock, Anima",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Hybrid Capacitors",
+        "type": "Man",
+        "rarity": "Com",
+        "subtype": "Capacitor",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Imperial Shielding",
+        "type": "Man",
+        "rarity": "VRare",
+        "subtype": "Shielding",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Improvised Components",
+        "type": "Man",
+        "rarity": "VRare",
+        "subtype": "",
+        "loc 1": "",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Inconsistent Shield Soak Analysis",
+        "type": "Data",
+        "rarity": "Com",
+        "subtype": "Shield Frequency System",
+        "loc 1": "NPC Ship Scanning",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Insulating Membrane",
+        "type": "Com",
+        "rarity": "",
+        "subtype": "",
+        "loc 1": "",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Ion Distributor",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "<70 Tauri>",
+        "loc 2": "",
+        "loc 3": "Mission Reward",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Iron",
+        "type": "Ele",
+        "rarity": "VCom",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "Ice Rings - Mining",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Irregular Emission Data",
+        "type": "Data",
+        "rarity": "Com",
+        "subtype": "Emission Data",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Magnetic Emitter Coil",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Virts Dock, Chemaluk",
+        "loc 2": "Mission Reward",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Manganese",
+        "type": "Ele",
+        "rarity": "Com",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Mechanical Components",
+        "type": "Man",
+        "rarity": "Std",
+        "subtype": "Mechanical Component",
+        "loc 1": "Ship Salvage (Trade Ships)",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "Hauler",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Mechanical Equipment",
+        "type": "Man",
+        "rarity": "Com",
+        "subtype": "Mechanical Component",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "Hauler",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Mechanical Scrap",
+        "type": "Man",
+        "rarity": "VCom",
+        "subtype": "Mechanical Component",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "Hauler",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Mercury",
+        "type": "Ele",
+        "rarity": "Std",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Micro Controllers",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Micro-Weave Cooling Hoses",
+        "type": "Com",
+        "rarity": "",
+        "subtype": "",
+        "loc 1": "Mission Reward",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Military Supercapacitors",
+        "type": "Man",
+        "rarity": "",
+        "subtype": "",
+        "loc 1": "",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Modified Consumer Firmware",
+        "type": "Data",
+        "rarity": "Com",
+        "subtype": "Firmware",
+        "loc 1": "Surface POI - Data Point",
+        "loc 2": "Ship Wreck Salvage",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Modified Embedded Firmware",
+        "type": "Data",
+        "rarity": "",
+        "subtype": "Firmware",
+        "loc 1": "Surface POI - Data Point",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Military Grade Alloys",
+        "type": "Man",
+        "rarity": "VRare",
+        "subtype": "Heat Resistant Alloy",
+        "loc 1": "Ship Wreck",
+        "loc 2": "Mission Reward",
+        "loc 3": "",
+        "ship types": "Military/Authority",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Modular Terminals",
+        "type": "Com",
+        "rarity": "",
+        "subtype": "",
+        "loc 1": "Mission Reward",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Molybdenum",
+        "type": "Ele",
+        "rarity": "Std",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Nanobreakers",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Mission Reward",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Neofabric Insulation",
+        "type": "Com",
+        "rarity": "",
+        "subtype": "",
+        "loc 1": "Mission Reward",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Nickel",
+        "type": "Ele",
+        "rarity": "VCom",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "Ice Rings - Mining",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Niobium",
+        "type": "Ele",
+        "rarity": "Std",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Open Symmetric Keys",
+        "type": "Data",
+        "rarity": "Std",
+        "subtype": "Encryption Code",
+        "loc 1": "POI Data Point",
+        "loc 2": "Ship Wreck Salvage",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Osmium",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Mining",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Peculiar Shield Frequency Data",
+        "type": "Data",
+        "rarity": "VRare",
+        "subtype": "Shield Frequency System",
+        "loc 1": "NPC Ship Scanning",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Pharmaceutil Isolators",
+        "type": "Man",
+        "rarity": "",
+        "subtype": "",
+        "loc 1": "",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Phase Alloys",
+        "type": "Man",
+        "rarity": "Std",
+        "subtype": "Lightweight Alloy",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Phosphorus",
+        "type": "Ele",
+        "rarity": "VCom",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "Ice Rings - Mining",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Platinum",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Mining",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Polonium",
+        "type": "Ele",
+        "rarity": "Rare",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Polymer Capacitors",
+        "type": "Man",
+        "rarity": "Rare",
+        "subtype": "Capacitor",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Power Converter",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Mullane Terminal, Bag 7",
+        "loc 2": "<Lakota>",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Power Transfer Bus",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Hoften Enterprise, Inheretii",
+        "loc 2": "Bunnell Dock, Nogambe",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Praseodymium",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Mining",
+        "loc 2": "Mining Mission Reward (yes)",
+        "loc 3": "",
+        "ship types": "",
+        "info": "Mission requiring to deliver methanol monohydrate",
+        "info2": ""
+    },
+    {
+
+        "name": "Precipitated Alloys",
+        "type": "Man",
+        "rarity": "Std",
+        "subtype": "Heat Resistant Alloy",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Proprietary Composites",
+        "type": "Man",
+        "rarity": "Rare",
+        "subtype": "High Density Composites",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Proto Heat Radiators",
+        "type": "Man",
+        "rarity": "",
+        "subtype": "",
+        "loc 1": "",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Proto Light Alloys",
+        "type": "Man",
+        "rarity": "Rare",
+        "subtype": "Lightweight Alloy",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Proto Radiolic Alloys",
+        "type": "Man",
+        "rarity": "VRare",
+        "subtype": "Lightweight Alloy",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Radiation Baffle",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Nespoli Hub, Wailaroju",
+        "loc 2": "<Heget>",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Refined Focus Crystals",
+        "type": "Man",
+        "rarity": "Rare",
+        "subtype": "Focusing Crystal",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Reinforced Mounting Plate",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "<Eurybia>",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Ruthenium",
+        "type": "Ele",
+        "rarity": "Rare",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Salvaged Alloys",
+        "type": "Man",
+        "rarity": "VCom",
+        "subtype": "Lightweight Alloy",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "Fighter",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Samarium",
+        "type": "Com",
+        "rarity": "Std",
+        "subtype": "",
+        "loc 1": "Mining",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Security Firmware Patch",
+        "type": "Data",
+        "rarity": "Rare",
+        "subtype": "Firmware",
+        "loc 1": "",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Selenium",
+        "type": "Ele",
+        "rarity": "Com",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Shield Emitters",
+        "type": "Man",
+        "rarity": "Com",
+        "subtype": "Shielding",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "Surface POI",
+        "ship types": "Fighter",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Shielding Sensors",
+        "type": "Man",
+        "rarity": "Std",
+        "subtype": "Shielding",
+        "loc 1": "",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Soontil Relics",
+        "type": "Com",
+        "rarity": "Rare",
+        "subtype": "",
+        "loc 1": "Cheranovksy City, Nguri",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Specialised Legacy Firmware",
+        "type": "Data",
+        "rarity": "VCom",
+        "subtype": "Firmware",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "Mission Reward",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Strange Wake Solutions",
+        "type": "Data",
+        "rarity": "Std",
+        "subtype": "Scan Data",
+        "loc 1": "Wake Scanning",
+        "loc 2": "Mission Reward",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Sulphur",
+        "type": "Ele",
+        "rarity": "VCom",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "Ice Rings - Mining",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Tagged Encryption Codes",
+        "type": "Data",
+        "rarity": "Com",
+        "subtype": "Encryption Code",
+        "loc 1": "Mission Reward",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Technetium",
+        "type": "Ele",
+        "rarity": "Rare",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Telemetry Suite",
+        "type": "Com",
+        "rarity": "",
+        "subtype": "",
+        "loc 1": "Mission Reward",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Tellurium",
+        "type": "Ele",
+        "rarity": "Rare",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Tempered Alloys",
+        "type": "Man",
+        "rarity": "VCom",
+        "subtype": "Heat Resistant Alloy",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Thermic Alloys",
+        "type": "Man",
+        "rarity": "",
+        "subtype": "",
+        "loc 1": "",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Tin",
+        "type": "Ele",
+        "rarity": "Std",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Tungsten",
+        "type": "Ele",
+        "rarity": "Std",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Unexpected Emission Data",
+        "type": "Data",
+        "rarity": "Std",
+        "subtype": "Emission Data",
+        "loc 1": "NPC Ship Scanning",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Unidentified Scan Archives",
+        "type": "Data",
+        "rarity": "Com",
+        "subtype": "Scan Data",
+        "loc 1": "NPC Ship Scanning",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Unknown Fragment",
+        "type": "Man",
+        "rarity": "VRare",
+        "subtype": "",
+        "loc 1": "Destroy an UA",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Untypical Shield Scans",
+        "type": "Data",
+        "rarity": "Std",
+        "subtype": "Shield Frequency System",
+        "loc 1": "NPC Ship Scanning",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Vanadium",
+        "type": "Ele",
+        "rarity": "Com",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "Ice Rings - Mining",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Worn Shield Emitters",
+        "type": "Man",
+        "rarity": "VCom",
+        "subtype": "Shielding",
+        "loc 1": "Ship Wreck Salvage",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Yttrium",
+        "type": "Ele",
+        "rarity": "Rare",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Zinc",
+        "type": "Ele",
+        "rarity": "Com",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
+    },
+    {
+
+        "name": "Zirconium",
+        "type": "Ele",
+        "rarity": "Com",
+        "subtype": "Raw Material",
+        "loc 1": "Surface Prospecting",
+        "loc 2": "Mining",
+        "loc 3": "",
+        "ship types": "",
+        "info": "",
+        "info2": ""
     }
 ]
