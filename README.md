@@ -42,7 +42,7 @@ npm install
 npm start -s
 ```
 
-The app will then be available at http://localhost:8080
+The app will then be available at http://localhost:3000
 
 Deploying assets
 ----------------
