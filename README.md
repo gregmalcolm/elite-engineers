@@ -7,7 +7,10 @@ For gathering personal and technical data for each Engineer, with soon-to-come
 calculators to calculate ship stats output across multiple mods for a single 
 module, and multiple mods through several modules.
 
-npm template taken from https://github.com/pheuter/essential-react
+Original project structure is based on this:
+https://github.com/coryhouse/react-slingshot
+
+Take a look through it for additional information and instation steps
 
 Install
 =======
@@ -36,7 +39,7 @@ Build the project
 
 ```
 npm install
-npm run server
+npm start -s
 ```
 
 The app will then be available at http://localhost:8080
@@ -48,5 +51,5 @@ For deployment to servers we can genearte html/js files with webpack
 
 ```
 npm install -g webpack
-npm --config webpack.production.config.js
+npm --config webpack.config.prod.js
 ```
