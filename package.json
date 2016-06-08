@@ -1,9 +1,8 @@
 {
-  "name": "react-slingshot",
-  "version": "4.0.0",
-  "description": "Starter kit for creating apps with React and Redux",
+  "name": "elite-engineers",
+  "version": "0.1.1",
+  "description": "Elite Engineers webapp",
   "scripts": {
-    "remove-demo": "babel-node tools/removeDemo.js",
     "start-message": "babel-node tools/startMessage.js",
     "prestart": "npm-run-all --parallel start-message remove-dist",
     "start": "npm-run-all --parallel test:watch open:src lint:watch",
@@ -21,7 +20,7 @@
     "test:cover:travis": "babel-node node_modules/isparta/bin/isparta cover --root src --report lcovonly _mocha -- --require ./tools/testSetup.js \"src/**/*.spec.js\" && cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "Cory House",
+  "author": "Greg Malcolm",
   "license": "MIT",
   "dependencies": {
     "object-assign": "4.1.0",
@@ -59,6 +58,7 @@
     "extract-text-webpack-plugin": "1.0.1",
     "file-loader": "0.8.5",
     "isparta": "4.0.0",
+    "jquery": "2.2.4",
     "mocha": "2.4.5",
     "node-sass": "3.7.0",
     "npm-run-all": "1.8.0",
@@ -90,6 +90,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/coryhouse/react-slingshot"
+    "url": "https://github.com/gregmalcolm/elite-engineers"
   }
 }
