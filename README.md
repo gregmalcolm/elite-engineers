@@ -50,6 +50,6 @@ Deploying assets
 For deployment to servers we can genearte html/js files with webpack
 
 ```
-npm install -g webpack
-npm --config webpack.config.prod.js
+npm run build
 ```
+This will populate the dist folder with minified assets
