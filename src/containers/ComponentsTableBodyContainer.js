@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ComponentsBody from '../components/ComponentsBody';
+import ComponentsTableBody from '../components/ComponentsTableBody';
 
 export default class Component extends React.Component {
   constructor() {
@@ -19,6 +19,6 @@ export default class Component extends React.Component {
   }
 
   render() {
-    return <ComponentsBody components={this.state.components} />;
+    return <ComponentsTableBody components={this.state.components} />;
   }
 }

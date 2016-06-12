@@ -1,7 +1,8 @@
 import React from 'react';
 
+import ComponentsPersonalStockInput from './ComponentsPersonalStockInput';
 
-export default class ComponentsForm extends React.Component {
+export default class ComponentsBody extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -13,7 +14,7 @@ export default class ComponentsForm extends React.Component {
   renderComponent(components) {
     return (
       <tr key={components.name}>
-        <td></td>
+        <td><ComponentsPersonalStockInput /></td>
         <td>{components.name}</td>
         <td>{components.type}</td>
         <td>{components.rarity}</td>
