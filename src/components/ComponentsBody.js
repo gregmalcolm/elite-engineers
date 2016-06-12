@@ -7,7 +7,7 @@ export default class ComponentsForm extends React.Component {
   }
 
   render() {
-    return <body>{this.props.components.map(this.renderComponent)}</body>;
+    return <tbody>{this.props.components.map(this.renderComponent)}</tbody>;
   }
 
   renderComponent(components) {

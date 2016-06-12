@@ -7,7 +7,7 @@ export default class ComponentsPage extends React.Component {
     return (
       <div>
         <h1>Components</h1>
-        <table>
+        <table className="table table-hover">
           <thead>
             <tr>
               <td>Name</td>

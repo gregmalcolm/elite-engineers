@@ -2,8 +2,6 @@ import React from 'react';
 
 import ComponentsBody from '../components/ComponentsBody';
 
-var $ = require('jquery');
-
 export default class Component extends React.Component {
   constructor() {
     super();
