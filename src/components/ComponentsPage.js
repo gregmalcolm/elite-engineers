@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ComponentsListContainer from '../containers/ComponentsListContainer'
+import ComponentsBodyContainer from '../containers/ComponentsBodyContainer'
 
 export default class ComponentsPage extends React.Component {
   render() {
@@ -13,9 +13,7 @@ export default class ComponentsPage extends React.Component {
               <td>Name</td>
             </tr>
           </thead>
-          <tbody>
-            <ComponentsListContainer />
-          </tbody>
+          <ComponentsBodyContainer />
         </table>
       </div>
     );

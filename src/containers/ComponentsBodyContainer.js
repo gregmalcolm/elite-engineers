@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ComponentsList from '../components/ComponentsList';
+import ComponentsBody from '../components/ComponentsBody';
 
 var $ = require('jquery');
 
@@ -21,6 +21,6 @@ export default class Component extends React.Component {
   }
 
   render() {
-    return <ComponentsList components={this.state.components} />;
+    return <ComponentsBody components={this.state.components} />;
   }
 }
