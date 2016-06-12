@@ -1,8 +1,9 @@
 import { combineReducers } from 'redux';
-import eliteEngineersReducer from './eliteEngineersReducer';
+import componentsReducer from './componentsReducer';
 
 const rootReducer = combineReducers({
-  eliteEngineersReducer
+  componentsReducer,
+  // Add reducers here
 });
 
 export default rootReducer;
