@@ -6,27 +6,26 @@ $vin-red: #ff0000;
 /* Styles */
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  line-height: 1.4em;
-  color: #FCFCFD;
-  background-color: #050605;
-  min-width: 230px;
-  max-width: 800px;
+  /*line-height: 1.4em;*/
+  /*color: #FCFCFD;*/
+  /*background-color: #050605;*/
   margin: 0 auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  font-smoothing: antialiased;
-  font-weight: 300;
+  padding: 0 20px;
+  /*-webkit-font-smoothing: antialiased;*/
+  /*-moz-font-smoothing: antialiased;*/
+  /*font-smoothing: antialiased;*/
+  /*font-weight: 300;*/
 }
 
-td {
-	padding: 12px;
-}
 
 h2 {
 	color: $vin-blue;
 }
 
-.savings { color: $vin-green; }
-.loss { color: $vin-red; }
-input.small { width: 46px; }
-td.fuel-savings-label { width: 175px; }
+/*.table-striped>tbody>tr:nth-child(odd)>td, */
+/*.table-striped>tbody>tr:nth-child(odd)>th {*/
+   /*background-color: #000020;*/
+/*}*/
+
+/*input.small { width: 46px; }*/
+/*td.fuel-savings-label { width: 175px; }*/
