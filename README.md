@@ -47,9 +47,14 @@ The app will then be available at http://localhost:3000
 Deploying assets
 ----------------
 
-For deployment to servers we can genearte html/js files with webpack
+For deployment to servers we can generate html/js files with webpack via npm:
 
 ```
 npm run build
+```
+
+If you didn’t want it to start a server:
+```
+npm run build-only
 ```
 This will populate the dist folder with minified assets

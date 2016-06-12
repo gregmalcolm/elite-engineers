@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ComponentsBodyContainer from '../containers/ComponentsBodyContainer'
+import ComponentsBodyContainer from '../containers/ComponentsBodyContainer';
 
 export default class ComponentsPage extends React.Component {
   render() {
