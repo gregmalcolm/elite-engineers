@@ -1,5 +1,6 @@
 export default {
-  components: {
+  componentStock: {
+    componentName: null,
     personalStock: 0,
     updatedAt: null,
   }

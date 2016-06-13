@@ -1,10 +1,7 @@
-import React, {PropTypes} from 'react';
-import {connect} from 'react-redux';
-import {bindActionCreators} from 'redux';
-
+import React from 'react';
 import ComponentsTableBody from '../components/ComponentsTableBody';
 
-export default class Component extends React.Component {
+export default class ComponentTableBodyContainer extends React.Component {
   constructor() {
     super();
     this.state = { components: [] };
@@ -20,6 +17,9 @@ export default class Component extends React.Component {
   }
 
   render() {
-    return <ComponentsTableBody components={this.state.components} />;
+    return (
+      <ComponentsTableBody
+        components={this.state.components}
+      />);
   }
 }

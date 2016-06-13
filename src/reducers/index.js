@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import componentsReducer from './componentsReducer';
+import componentStockReducer from './componentStockReducer';
 
 const rootReducer = combineReducers({
-  componentsReducer,
+  componentStockReducer
   // Add reducers here
 });
 

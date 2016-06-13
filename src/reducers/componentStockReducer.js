@@ -5,7 +5,7 @@ import initialState from './initialState';
 
 import dateHelper from '../utils/dateHelper';
 
-export default function componentsReducer(state = initialState.components, action) {
+export default function componentStockReducer(state = initialState.componentStock, action) {
   switch (action.type) {
     case SAVE:
       // Make a copy because you can't change state
