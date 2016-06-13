@@ -6,11 +6,13 @@ import ComponentRow from '../../components/Component/Row';
 
 class ComponentRowContainer extends React.Component {
   constructor(props) {
-    super(props);
+    super(...arguments);
+    let componentStock = props.componentStock;
+    componentStock.componentName = props.component.name;
     this.props = {
       component: {},
       actions: props.actions.save,
-      componentStock: props.componentStock
+      componentStock: componentStock
     };
   }
   render() {

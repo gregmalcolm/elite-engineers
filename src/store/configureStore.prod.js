@@ -1,5 +1,5 @@
 import { createStore, compose } from 'redux';
-import persistState from 'redux-localstorage';
+//import persistState from 'redux-localstorage';
 import rootReducer from '../reducers';
 
 export default function configureStore(initialState) {

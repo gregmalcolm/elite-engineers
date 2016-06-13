@@ -2,7 +2,7 @@ import React from 'react';
 
 import ComponentsStockInput from './StockInput';
 
-export default class ComponentsBody extends React.Component {
+export default class ComponentsRow extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -11,7 +11,11 @@ export default class ComponentsBody extends React.Component {
     const component = this.props.component;
     return (
       <tr key={component.name}>
-        <td><ComponentsStockInput /></td>
+        <td><ComponentsStockInput
+          name={component.name}
+          value={this.props.componentStock.personalStock}
+          save={this.props.save}
+        /></td>
         <td>{component.name}</td>
         <td>{component.type}</td>
         <td>{component.rarity}</td>

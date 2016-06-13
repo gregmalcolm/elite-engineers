@@ -1,4 +1,3 @@
-// TODO: Should probably use use moment.js to do this kind of thing
 export default class DateHelper {
   // See tests for desired format.
   static getFormattedDateTime(date) {

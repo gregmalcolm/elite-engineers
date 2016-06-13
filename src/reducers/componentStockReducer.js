@@ -9,7 +9,8 @@ export default function componentStockReducer(state = initialState.componentStoc
   switch (action.type) {
     case SAVE:
       // Make a copy because you can't change state
-      return objectAssign({}, state, {updatedAt: dateHelper.getFormatedDateTime(new Date())});
+      //return objectAssign({}, state, {updatedAt: dateHelper.getFormatedDateTime(new Date())});
+      return objectAssign({}, state, {updatedAt: new Date()});
     default:
       return state;
   }
