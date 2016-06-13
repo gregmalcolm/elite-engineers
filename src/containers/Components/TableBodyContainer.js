@@ -3,7 +3,7 @@ import ComponentsTableBody from '../../components/Components/TableBody';
 
 export default class ComponentTableBodyContainer extends React.Component {
   constructor() {
-    super();
+    super(...arguments);
     this.state = { components: [] };
   }
   componentDidMount() {
