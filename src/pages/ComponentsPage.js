@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ComponentsTable from '../components/ComponentsTable';
+import ComponentsTable from '../components/Components/Table';
 
 export default class ComponentsPage extends React.Component {
   render() {

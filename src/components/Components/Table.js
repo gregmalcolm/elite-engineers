@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ComponentsTableBodyContainer from '../containers/ComponentsTableBodyContainer';
+import ComponentsTableBodyContainer from '../../containers/Components/TableBodyContainer';
 
 export default class ComponentsTable extends React.Component {
   render() {

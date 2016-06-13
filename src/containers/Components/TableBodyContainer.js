@@ -1,5 +1,5 @@
 import React from 'react';
-import ComponentsTableBody from '../components/ComponentsTableBody';
+import ComponentsTableBody from '../../components/Components/TableBody';
 
 export default class ComponentTableBodyContainer extends React.Component {
   constructor() {

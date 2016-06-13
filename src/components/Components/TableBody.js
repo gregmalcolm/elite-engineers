@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ComponentsPersonalStockInput from './ComponentsPersonalStockInput';
+import ComponentsStockInput from './StockInput';
 
 export default class ComponentsBody extends React.Component {
   constructor(props) {
@@ -14,7 +14,7 @@ export default class ComponentsBody extends React.Component {
   renderComponent(components) {
     return (
       <tr key={components.name}>
-        <td><ComponentsPersonalStockInput /></td>
+        <td><ComponentsStockInput /></td>
         <td>{components.name}</td>
         <td>{components.type}</td>
         <td>{components.rarity}</td>
