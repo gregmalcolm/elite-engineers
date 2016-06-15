@@ -25,6 +25,9 @@ export default {
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.DefinePlugin(GLOBALS), // Tells React to build in prod mode. https://facebook.github.io/react/downloads.html
     new CopyWebpackPlugin([{from: 'src/data', to: 'data'}]), // Copy json files to dist
+    new webpack.ProvidePlugin({
+      "window.Tether": "tether"
+    }),
     new ExtractTextPlugin('styles.css'),
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.UglifyJsPlugin()

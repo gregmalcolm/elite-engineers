@@ -28,6 +28,10 @@ export default {
     new webpack.ProvidePlugin({
         $: "jquery",
         jQuery: "jquery"
+    }),
+    //new ExtractTextPlugin('app.css', { allChunks: true }),
+    new webpack.ProvidePlugin({
+      "window.Tether": "tether"
     })
   ],
   module: {
