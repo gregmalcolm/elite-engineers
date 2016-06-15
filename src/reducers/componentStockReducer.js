@@ -3,7 +3,7 @@ import {SAVE} from '../constants/actionTypes';
 import objectAssign from 'object-assign';
 import initialState from './initialState';
 
-import dateHelper from '../utils/dateHelper';
+//import dateHelper from '../utils/dateHelper';
 
 export default function componentStockReducer(state = initialState.componentStock, action) {
   switch (action.type) {
