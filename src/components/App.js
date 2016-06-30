@@ -5,7 +5,7 @@ const App = (props) => {
   return (
     <div>
       <IndexLink to="/">Home</IndexLink>
-      {' | '}
+      &nbsp;
       <Link to="/components">Components</Link>
       <br/>
       {props.children}
