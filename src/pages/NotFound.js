@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const NotFoundPage = () => {
+const NotFound = () => {
   return (
     <div>
       <h4>
@@ -12,4 +12,4 @@ const NotFoundPage = () => {
   );
 };
 
-export default NotFoundPage;
+export default NotFound;
