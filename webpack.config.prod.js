@@ -3,6 +3,9 @@ import path from 'path';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 import S3Plugin from 'webpack-s3-plugin';
+import dotEnv from 'dotenv';
+
+dotEnv.config();
 
 const GLOBALS = {
   'process.env.NODE_ENV': JSON.stringify('production'),
@@ -39,7 +42,8 @@ export default {
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.UglifyJsPlugin(),
     new S3Plugin({
-      include: /.*\.(css|js|json|map|html)/,
+      include: /.*/,
+      htmlFiles: 'index.html',
       // s3Options are required
       s3Options: {
         accessKeyId: process.env.AWS_ACCESS_KEY_ID,
@@ -47,7 +51,7 @@ export default {
         region: 'us-east-1'
       },
       s3UploadOptions: {
-        Bucket: 'elite-engineers'
+        Bucket: 'elite-engineers.com'
       }
     })
   ],
