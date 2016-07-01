@@ -1,13 +1,16 @@
-import React, { PropType } from 'react';
+import React, { PropTypes } from 'react';
 
 class ComponentStock extends React.Component {
   constructor(props) {
     super(props);
 
-    this.state = { stock: 0 };
+    this.state = {
+      stock: (localStorage[props.componentId] || 0)
+    };
   }
 
   handleStockChange(e) {
+    localStorage[this.props.componentId] = e.target.value;
     this.setState({stock: e.target.value});
   }
 
@@ -22,6 +25,7 @@ class ComponentStock extends React.Component {
 }
 
 ComponentStock.propTypes = {
+  componentId: PropTypes.string.isRequired
 };
 
 export default ComponentStock;
