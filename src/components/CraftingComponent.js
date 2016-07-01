@@ -1,8 +1,10 @@
 import React, { PropTypes } from 'react';
 
+import ComponentStock from './ComponentStock';
+
 const CraftingComponent = ({component}) => (
   <tr>
-    <td></td>
+    <td><ComponentStock componentId={component.name} /></td>
     <td>{component.name}</td>
     <td>{component.type}</td>
     <td>{component.rarity}</td>
@@ -28,7 +30,6 @@ CraftingComponent.propTypes = {
     ["ship types"]: PropTypes.string.isRequired,
     info: PropTypes.string.isRequired,
     info2: PropTypes.string.isRequired
-    //stock: PropTypes.number.isRequired
   }).isRequired
 };
 
