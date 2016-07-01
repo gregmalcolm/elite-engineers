@@ -66,7 +66,8 @@
     "react/sort-comp": 1,
     "react/wrap-multilines": 1,
     "no-unused-vars": 0,
-    "comma-dangle": 0
+    "comma-dangle": 0,
+    "import/default": 0
   },
   "globals": {
   }

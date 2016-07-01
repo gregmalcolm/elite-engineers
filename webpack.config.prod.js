@@ -2,6 +2,8 @@ import webpack from 'webpack';
 import path from 'path';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
+import S3Plugin from 'webpack-s3-plugin';
+
 const GLOBALS = {
   'process.env.NODE_ENV': JSON.stringify('production'),
   __DEV__: false
@@ -26,6 +28,10 @@ export default {
     new webpack.DefinePlugin(GLOBALS), // Tells React to build in prod mode. https://facebook.github.io/react/downloads.html
     new CopyWebpackPlugin([{from: 'src/data', to: 'data'}]), // Copy json files to dist
     new ExtractTextPlugin('styles.css'),
+    new webpack.ProvidePlugin({
+        $: "jquery",
+        jQuery: "jquery"
+    }),
     new ExtractTextPlugin('app.css', {allChunks: true}),
     new webpack.ProvidePlugin({
       "window.Tether": "tether"
