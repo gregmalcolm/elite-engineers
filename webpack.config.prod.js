@@ -37,7 +37,19 @@ export default {
       "window.Tether": "tether"
     }),
     new webpack.optimize.DedupePlugin(),
-    new webpack.optimize.UglifyJsPlugin()
+    new webpack.optimize.UglifyJsPlugin(),
+    new S3Plugin({
+      include: /.*\.(css|js|json|map|html)/,
+      // s3Options are required
+      s3Options: {
+        accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+        region: 'us-east-1'
+      },
+      s3UploadOptions: {
+        Bucket: 'elite-engineers'
+      }
+    })
   ],
   module: {
     loaders: [
