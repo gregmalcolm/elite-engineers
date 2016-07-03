@@ -314,10 +314,14 @@ function arrayTranspose_(data) {
   return ret;
 }
 
-
-
 //------------------------------------------------------------------------------
-//-- V2 export
+//------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
+
+/**
+ * Export JSON V2 - generate a single full JSON file
+ */
+
 
 function exportSheetV2(e) {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
@@ -328,12 +332,18 @@ function exportSheetV2(e) {
   var sheet = ss.getSheetByName('EngINFOS');
   var rowsDataInfos = getRowsData_(sheet, getExportOptions(e));
 
-  var structure = improveJsonEngineers(rowsData, rowsDataInfos);
-  //var json = JSON.stringify(rowsData);
+  var sheet = ss.getSheetByName('EngComponents');
+  var rowsComponents = getRowsData_(sheet, getExportOptions(e));
+
+  var structure = improveJsonEngineers(rowsData, rowsDataInfos, rowsComponents);
   var json = makeJSON_(structure, getExportOptions(e));
 
   return displayText_(json);
 }
+
+/**
+ * Export JSON V2 - save into multiple files
+ */
 
 function exportSheetV2SaveFiles(e) {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
@@ -344,22 +354,28 @@ function exportSheetV2SaveFiles(e) {
   var sheet = ss.getSheetByName('EngINFOS');
   var rowsDataInfos = getRowsData_(sheet, getExportOptions(e));
 
-  var structure = improveJsonEngineers(rowsData, rowsDataInfos);
+  var sheet = ss.getSheetByName('EngComponents');
+  var rowsComponents = getRowsData_(sheet, getExportOptions(e));
+
+  var structure = improveJsonEngineers(rowsData, rowsDataInfos, rowsComponents);
 
   saveTo(structure);
 }
 
-//------------------------------------------------------------------------------
-//-- Engineer structure
 
-// Enginner
+/**
+ * Define some Classes for the engineer DB structure
+ *
+ */
+
+// Enginner DB item
 
 function objEng () {
   this.name = null;
   this.location = {
     system: null,
     planet: null,
-    station: null
+    base: null
   };
   this.allegiance = null;
   this.specialization = null;
@@ -369,7 +385,7 @@ function objEng () {
   this.blueprints = [];
 }
 
-// Blueprint
+// Blueprint DB item
 
 function objBlueprint () {
   this.name = null;
@@ -377,24 +393,75 @@ function objBlueprint () {
   this.recipes = {};
 }
 
-// Component
+// Recipe DB item
+
+function objRecipe () {
+  this.components = {};
+  this.effects = {};
+}
+
+// Effect DB item
+
+function objEffect () {
+  this.name = null;
+  this.isPercent = null;
+  this.min = null;
+  this.max = null;
+}
+
+// Component DB item
 
 function objComponent () {
   this.name = null;
   this.type = null;
+  this.subtype = null;
+  this.rarity = null;
+  this.location = [];
+  this.missionReward = false;
+  this.shipType = null;
 }
 
 
-//------------------------------------------------------------------------------
-//-- Improve engineer struture
 
-function improveJsonEngineers(rowsData, rowsDataInfos) {
+/**
+ * Convert the flat engineer struture to something muck more usable
+ *
+ * @param  rowsData The flat engineers/blueprints rows
+ * @param  rowsDataInfos The flat engineers info rows
+ * @param  rowsDataInfos The components rows
+ * @return JSON object with more struture
+ */
+
+function improveJsonEngineers(rowsData, rowsDataInfos, rowsComponents) {
 
   var fullStruct = {
     engineers:  {},
     blueprints: {},
-    components:  {}
+    components:  {},
+    errors: []
   };
+
+
+
+  // Parse components rows
+
+  rowsComponents.forEach(function(row) {
+    var idCmp = generateKeyObject(row.component);
+
+    var objC = new objComponent();
+    objC.name = row.component;
+    objC.type = row.type;
+    objC.subtype = row.subtype;
+    objC.rarity = row.rarity;
+    objC.location = [];
+    objC.missionReward = (row.missionreward == 'Yes');
+    if(row.missionreward=='Only') objC.missionReward = 'Only';
+    objC.shipType = row.ship_types;
+
+    fullStruct.components[idCmp] = objC;
+  });
+
+  // Parse blueprint / engineer rows
 
   rowsData.forEach(function(row) {
 
@@ -409,8 +476,9 @@ function improveJsonEngineers(rowsData, rowsDataInfos) {
         var idEngInfo = generateKeyObject(infos.dbname);
         if(idEngInfo == idEng) {
           objE.allegiance      = infos.allegiance;
-          objE.location.system = infos.system;
-          objE.location.planet = infos.location;
+          objE.location.system = infos.sysname;
+          objE.location.planet = infos.planetname;
+          objE.location.base   = infos.basename;
           objE.specialization  = infos.engspec;
           objE.welcomeGift     = infos.welcomegift;
           objE.requirements    = infos.requirements;
@@ -446,20 +514,53 @@ function improveJsonEngineers(rowsData, rowsDataInfos) {
     }
 
     //-- Conponent
+    //-- Attach components to blueprints
+
+    var lvl = row.modlvl;
+    if(objB.recipes[lvl] == undefined) {
+      var objR = new objRecipe();
+      objB.recipes[lvl] = objR;
+    }
 
     for(i=1; i<=5; i++) {
 
       var keyMat = 'mat'+i;
-      if(row[keyMat] != undefined && row[keyMat] !== '') {
+      var qtMat  = 'mat'+i+'cnt';
+
+      if(row[keyMat] != undefined && row[keyMat] != '') {
         var idCmp = generateKeyObject(row[keyMat]);
 
         if(fullStruct.components[idCmp] == undefined) {
-          var objC = new objComponent();
-          objC.name = row[keyMat];
-        } else {
-          var objC = fullStruct.components[idCmp];
+          fullStruct.errors.push('Missing component "'+row[keyMat]+'"');
         }
-        fullStruct.components[idCmp] = objC;
+
+        //-- Attach component to blueprint
+        var name = row[keyMat];
+        objB.recipes[lvl].components[name] = parseInt(row[qtMat]);
+
+
+      }
+
+    }
+
+    for(i=1; i<=7; i++) {
+
+      var keyEff = 'stat'+i;
+
+      if(row[keyEff] != undefined && row[keyEff] != '') {
+
+        var idEff = generateKeyObject(row[keyEff]);
+        var efName = row['stat'+i];
+        var efPerc = row['s'+i+'ispercent'];
+        var efMin = row['s'+i+'min'];
+        var efMax = row['s'+i+'max'];
+
+        var objEf = new objEffect();
+        objEf.name = efName;
+        objEf.isPercent = (parseInt(efPerc) == 1);
+        objEf.min = parseInt(efMin);
+        objEf.max = parseInt(efMax);
+        objB.recipes[lvl].effects[idEff] = objEf;
       }
     }
 
@@ -478,6 +579,13 @@ function improveJsonEngineers(rowsData, rowsDataInfos) {
 
 }
 
+/**
+ * Generate a clean key
+ *
+ * @param  nameElem A name to convert into a key
+ * @return The key
+ */
+
 function generateKeyObject(nameElem) {
 
   var objKey = nameElem.toLowerCase()
@@ -490,17 +598,25 @@ function generateKeyObject(nameElem) {
 
 }
 
+/**
+ * Save the full JSON structure into on file & split it also into separate folder/files.
+ *
+ * @param  json The full JSON object
+ * @return The the main folder url
+ */
+
 function saveTo (json) {
 
   var folderName = 'Engineers-data-json';
   var folder = getFolder(folderName);
-  displayLinkText_(folder.getUrl());
+  displayLinkText_('Wait... Work in progress...');
   var filename = 'engineers-fullpack.json';
   setFile(filename,json,folder);
   var filename = 'engineers-fullpack.min.json';
   setFile(filename,json,folder,true);
 
   // Save engineers into separate files
+  displayLinkText_('Work in progress... Step1: Engineers');
   var folderEng = getFolder("engineers",folder);
 
   for(var idEng in json.engineers) {
@@ -511,6 +627,7 @@ function saveTo (json) {
   }
 
   // Save blueprints into separate files
+  displayLinkText_('Work in progress... Step2: Blueprints');
   var folderBlueprint = getFolder("blueprints",folder);
 
   for(var idBlp in json.blueprints) {
@@ -520,12 +637,35 @@ function saveTo (json) {
 
   }
 
+  // Save components into separate files
+  displayLinkText_('Work in progress... Step3: Components');
+  var folderComponents = getFolder("components",folder);
+
+  for(var idBlp in json.components) {
+
+    var filename = idBlp+'.json';
+    setFile(filename,json.components[idBlp],folderComponents);
+
+  }
+
+  // Save also 3 separate file for each main part
+  displayLinkText_('Work in progress... Step4: Engineer/Blueprint/Components packages');
+  setFile('db-engineers.json',json.engineers,folder);
+  setFile('db-blueprints.json',json.blueprints,folder);
+  setFile('db-components.json',json.components,folder);
+
 
 
   return displayLinkText_(folder.getUrl());
 }
 
-
+/**
+ * Create a JSON file or overwrite it if already exisr
+ *
+ * @param  newFolder The folder name
+ * @param  parent    The parent forlder (if no parent, create the folder at the root)
+ * @return The folder object
+ */
 
 function getFolder(newFolder, parent) {
 
@@ -550,6 +690,16 @@ function getFolder(newFolder, parent) {
   return parent.createFolder(newFolder);
 
 };
+
+/**
+ * Create a JSON file or overwrite it if already exisr
+ *
+ * @param  newFile The filename
+ * @param  json    The JSON data to save
+ * @param  parent  Parent folder object
+ * @param  minified Is the JSON will be minified or not (pretty print)
+ */
+
 function setFile(newFile, json, parent, minified) {
 
   if(minified == undefined) minified = false;
