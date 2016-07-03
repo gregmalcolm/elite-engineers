@@ -22,16 +22,19 @@ function onOpen() {
   var menuEntries = [
     {name: "Export JSON for this sheet", functionName: "exportSheet"},
     {name: "Export JSON for all sheets", functionName: "exportAllSheets"},
+    {name: "Export JSON v2 (all in one)", functionName: "exportSheetV2"},
+    {name: "Export JSON v2 (Save all files to Drive)", functionName: "exportSheetV2SaveFiles"},
+
     {name: "Configure export", functionName: "exportOptions"},
   ];
   ss.addMenu("Export JSON", menuEntries);
 }
-    
-    
+
+
 function exportOptions() {
   var doc = SpreadsheetApp.getActiveSpreadsheet();
   var app = UiApp.createApplication().setTitle('Export JSON');
-  
+
   var grid = app.createGrid(4, 2);
   grid.setWidget(0, 0, makeLabel(app, 'Language:'));
   grid.setWidget(0, 1, makeListBox(app, 'language', [LANGUAGE_JS, LANGUAGE_PYTHON]));
@@ -42,7 +45,7 @@ function exportOptions() {
   grid.setWidget(3, 0, makeButton(app, grid, 'Export Active Sheet', 'exportSheet'));
   grid.setWidget(3, 1, makeButton(app, grid, 'Export All Sheets', 'exportAllSheets'));
   app.add(grid);
-  
+
   doc.show(app);
 }
 
@@ -55,7 +58,7 @@ function makeLabel(app, text, id) {
 function makeListBox(app, name, items) {
   var listBox = app.createListBox().setId(name).setName(name);
   listBox.setVisibleItemCount(1);
-  
+
   var cache = CacheService.getPublicCache();
   var selectedValue = cache.get(name);
   Logger.log(selectedValue);
@@ -76,20 +79,20 @@ function makeButton(app, parent, name, callback) {
   return button;
 }
 
-function makeTextBox(app, name) { 
+function makeTextBox(app, name) {
   var textArea    = app.createTextArea().setWidth('100%').setHeight('200px').setId(name).setName(name);
   return textArea;
 }
 
 function exportAllSheets(e) {
-  
+
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var sheets = ss.getSheets();
   var sheetsData = {};
   for (var i = 0; i < sheets.length; i++) {
     var sheet = sheets[i];
     var rowsData = getRowsData_(sheet, getExportOptions(e));
-    var sheetName = sheet.getName(); 
+    var sheetName = sheet.getName();
     sheetsData[sheetName] = rowsData;
   }
   var json = makeJSON_(sheetsData, getExportOptions(e));
@@ -103,19 +106,19 @@ function exportSheet(e) {
   var json = makeJSON_(rowsData, getExportOptions(e));
   return displayText_(json);
 }
-  
+
 function getExportOptions(e) {
   var options = {};
-  
+
   options.language = e && e.parameter.language || DEFAULT_LANGUAGE;
   options.format   = e && e.parameter.format || DEFAULT_FORMAT;
   options.structure = e && e.parameter.structure || DEFAULT_STRUCTURE;
-  
+
   var cache = CacheService.getPublicCache();
   cache.put('language', options.language);
   cache.put('format',   options.format);
   cache.put('structure',   options.structure);
-  
+
   Logger.log(options);
   return options;
 }
@@ -142,9 +145,17 @@ function displayText_(text) {
   var app = UiApp.createApplication().setTitle('Exported JSON');
   app.add(makeTextBox(app, 'json'));
   app.getElementById('json').setText(text);
-  var ss = SpreadsheetApp.getActiveSpreadsheet(); 
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
   ss.show(app);
-  return app; 
+  return app;
+}
+function displayLinkText_(text) {
+  var app = UiApp.createApplication().setTitle('Generated JSON files');
+  app.add(makeTextBox(app, 'json'));
+  app.getElementById('json').setText(text);
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  ss.show(app);
+  return app;
 }
 
 // getRowsData iterates row by row in the input range and returns an array of objects.
@@ -153,7 +164,7 @@ function displayText_(text) {
 //   - sheet: the sheet object that contains the data to be processed
 //   - range: the exact range of cells where the data is stored
 //   - columnHeadersRowIndex: specifies the row number where the column names are stored.
-//       This argument is optional and it defaults to the row immediately above range; 
+//       This argument is optional and it defaults to the row immediately above range;
 // Returns an Array of objects.
 function getRowsData_(sheet, options) {
   var headersRange = sheet.getRange(1, 1, sheet.getFrozenRows(), sheet.getMaxColumns());
@@ -177,7 +188,7 @@ function getRowsData_(sheet, options) {
 //   - sheet: the sheet object that contains the data to be processed
 //   - range: the exact range of cells where the data is stored
 //   - rowHeadersColumnIndex: specifies the column number where the row names are stored.
-//       This argument is optional and it defaults to the column immediately left of the range; 
+//       This argument is optional and it defaults to the column immediately left of the range;
 // Returns an Array of objects.
 function getColumnsData_(sheet, range, rowHeadersColumnIndex) {
   rowHeadersColumnIndex = rowHeadersColumnIndex || range.getColumnIndex() - 1;
@@ -302,3 +313,273 @@ function arrayTranspose_(data) {
 
   return ret;
 }
+
+
+
+//------------------------------------------------------------------------------
+//-- V2 export
+
+function exportSheetV2(e) {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+
+  var sheet = ss.getSheetByName('EngDB');
+  var rowsData = getRowsData_(sheet, getExportOptions(e));
+
+  var sheet = ss.getSheetByName('EngINFOS');
+  var rowsDataInfos = getRowsData_(sheet, getExportOptions(e));
+
+  var structure = improveJsonEngineers(rowsData, rowsDataInfos);
+  //var json = JSON.stringify(rowsData);
+  var json = makeJSON_(structure, getExportOptions(e));
+
+  return displayText_(json);
+}
+
+function exportSheetV2SaveFiles(e) {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+
+  var sheet = ss.getSheetByName('EngDB');
+  var rowsData = getRowsData_(sheet, getExportOptions(e));
+
+  var sheet = ss.getSheetByName('EngINFOS');
+  var rowsDataInfos = getRowsData_(sheet, getExportOptions(e));
+
+  var structure = improveJsonEngineers(rowsData, rowsDataInfos);
+
+  saveTo(structure);
+}
+
+//------------------------------------------------------------------------------
+//-- Engineer structure
+
+// Enginner
+
+function objEng () {
+  this.name = null;
+  this.location = {
+    system: null,
+    planet: null,
+    station: null
+  };
+  this.allegiance = null;
+  this.specialization = null;
+  this.welcomeGift = null;
+  this.requirements = null;
+  this.modules = {};
+  this.blueprints = [];
+}
+
+// Blueprint
+
+function objBlueprint () {
+  this.name = null;
+  this.module = null;
+  this.recipes = {};
+}
+
+// Component
+
+function objComponent () {
+  this.name = null;
+  this.type = null;
+}
+
+
+//------------------------------------------------------------------------------
+//-- Improve engineer struture
+
+function improveJsonEngineers(rowsData, rowsDataInfos) {
+
+  var fullStruct = {
+    engineers:  {},
+    blueprints: {},
+    components:  {}
+  };
+
+  rowsData.forEach(function(row) {
+
+    // Get engineer data
+
+    var idEng = generateKeyObject(row.engineername);
+
+    if(fullStruct.engineers[idEng] == undefined) {
+      var objE = new objEng();
+      objE.name = row.engineername;
+      rowsDataInfos.forEach(function(infos) {
+        var idEngInfo = generateKeyObject(infos.dbname);
+        if(idEngInfo == idEng) {
+          objE.allegiance      = infos.allegiance;
+          objE.location.system = infos.system;
+          objE.location.planet = infos.location;
+          objE.specialization  = infos.engspec;
+          objE.welcomeGift     = infos.welcomegift;
+          objE.requirements    = infos.requirements;
+          return;
+        }
+      });
+    } else {
+      var objE = fullStruct.engineers[idEng];
+    }
+
+    // Module data
+
+    if(objE.modules[row.module] == undefined) {
+      objE.modules[row.module] = 0;
+    }
+    if(objE.modules[row.module] < row.modlvl)
+      objE.modules[row.module] = row.modlvl;
+
+    //-- Blueprint data
+
+    var idBlu = generateKeyObject(row.module + '-' + row.moduletype);
+
+    if(fullStruct.blueprints[idBlu] == undefined) {
+      var objB = new objBlueprint();
+      objB.name = row.moduletype;
+      objB.module = row.module;
+    } else {
+      var objB = fullStruct.blueprints[idBlu];
+    }
+
+    if(objE.blueprints.indexOf(idBlu) == -1) {
+      objE.blueprints.push(idBlu);
+    }
+
+    //-- Conponent
+
+    for(i=1; i<=5; i++) {
+
+      var keyMat = 'mat'+i;
+      if(row[keyMat] != undefined && row[keyMat] !== '') {
+        var idCmp = generateKeyObject(row[keyMat]);
+
+        if(fullStruct.components[idCmp] == undefined) {
+          var objC = new objComponent();
+          objC.name = row[keyMat];
+        } else {
+          var objC = fullStruct.components[idCmp];
+        }
+        fullStruct.components[idCmp] = objC;
+      }
+    }
+
+
+
+    // Append to full struct
+
+    fullStruct.engineers[idEng] = objE;
+    fullStruct.blueprints[idBlu] = objB;
+
+
+  });
+
+
+  return fullStruct;
+
+}
+
+function generateKeyObject(nameElem) {
+
+  var objKey = nameElem.toLowerCase()
+    .replace(/\)/g,'')
+    .replace(/\(/,'')
+    .replace(/'/g,'')
+    .replace(/ /g,'-');
+
+  return objKey;
+
+}
+
+function saveTo (json) {
+
+  var folderName = 'Engineers-data-json';
+  var folder = getFolder(folderName);
+  displayLinkText_(folder.getUrl());
+  var filename = 'engineers-fullpack.json';
+  setFile(filename,json,folder);
+  var filename = 'engineers-fullpack.min.json';
+  setFile(filename,json,folder,true);
+
+  // Save engineers into separate files
+  var folderEng = getFolder("engineers",folder);
+
+  for(var idEng in json.engineers) {
+
+    var filename = idEng+'.json';
+    setFile(filename,json.engineers[idEng],folderEng);
+
+  }
+
+  // Save blueprints into separate files
+  var folderBlueprint = getFolder("blueprints",folder);
+
+  for(var idBlp in json.blueprints) {
+
+    var filename = idBlp+'.json';
+    setFile(filename,json.blueprints[idBlp],folderBlueprint);
+
+  }
+
+
+
+  return displayLinkText_(folder.getUrl());
+}
+
+
+
+function getFolder(newFolder, parent) {
+
+  if(parent == undefined) parent = DriveApp;
+
+  var folders = parent.getFolders();
+  var theReturn = false,
+      i=0,
+      folderName = "",
+      folder;
+
+  while (folders.hasNext()) {
+    folder = folders.next();
+    folderName = folder.getName();
+
+    if (folderName === newFolder) {
+      return folder;
+      break;
+    };
+  };
+
+  return parent.createFolder(newFolder);
+
+};
+function setFile(newFile, json, parent, minified) {
+
+  if(minified == undefined) minified = false;
+
+  var files = parent.getFiles();
+  var theReturn = false,
+      i=0,
+      fileName = "",
+      file;
+
+  while (files.hasNext()) {
+    file = files.next();
+    fileName = file.getName();
+
+    if (fileName === newFile) {
+      json = (!minified)
+        ? makeJSON_(json, getExportOptions())
+        : JSON.stringify(json);
+
+      file.setContent(json);
+      return;
+      break;
+    };
+  };
+
+  json = (!minified)
+    ? makeJSON_(json, getExportOptions())
+    : JSON.stringify(json);
+
+  parent.createFile(newFile,json);
+
+
+};
