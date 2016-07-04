@@ -1,0 +1,152 @@
+@font-face {
+    font-family: Michroma;
+    src: url(../assets/fonts/michroma.ttf);
+}
+
+body {
+    font-family: Michroma;
+    background: #1b1b1b;
+    color: darkorange;
+}
+
+body .container-fluid {
+    padding: 0;
+}
+
+#header {
+    background-image: url("../assets/drawables/starry-background.jpg");
+}
+
+#header h1 {
+    margin-bottom: 0;
+    font-size: 4rem;
+    padding: 1.1rem;
+    color: #f1921a;
+}
+
+#header img{
+    float: right;
+    margin-top: -105px;
+}
+
+#avatar, #avatar-quote, #history, #allegience, #home-system, #specialisations-list {
+    background: black;
+}
+
+
+#sidebar-column {
+    background: #2b2b2b;
+    opacity: 0.9;
+}
+
+#content-column {
+    padding-top: .9375rem;
+    padding-bottom: .9375rem;
+    color: #e5e7e8;
+    background: #1b1b1b;
+}
+
+#card-one, #card-two, #card-three {
+    background: #3b3b3b;
+    border: 0.1rem solid #101010;
+    padding: 0px;
+}
+
+#felicity-farseer-avatar {
+    width: 101px;
+    height: 101px;
+    float:left;
+    left: 0;
+    top: 0;
+    background: url("../assets/drawables/felicity-farseer-avatar.jpg");
+}
+
+#group-two-column {
+    border: 2px solid #656e75;
+}
+
+
+.large-top-buffer {
+    margin-top: 2rem;
+}
+
+.small-top-buffer {
+    margin-top: 1rem;
+}
+
+.small-top-padding {
+    padding-top: 1rem;
+}
+
+.felicity-farseer-table {
+    position: relative;
+    padding-left: 101px;
+}
+
+.bg-dark {
+    background: #4c4c4c;
+}
+
+
+.card-header.bg-dark {
+    /*background: -webkit-linear-gradient(top, black, black, black, black, black, black, darkorange);*/
+    /*background: -webkit-linear-gradient(top, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, black, #995c00);*/
+    background: -webkit-linear-gradient(top, #0c0d0d, #0c0d0d, #0c0d0d, #0c0d0d, #0c0d0d, #0c0d0d, #0c0d0d, #0c0d0d, #0c0d0d, #0c0d0d, #0c0d0d, #0c0d0d, #0c0d0d, #0c0d0d, #0c0d0d, #0c0d0d, #995c00);
+    border-bottom: 1px solid darkorange;
+    border-radius: 0.2rem;
+    box-shadow: 0 4px 10px -6px orange;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.white {
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
+.red-border {
+    border: 1px solid red;
+}
+
+.right {
+    float: right;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0rem;
+}
+
+.sidebar-nav li {
+    text-indent: 1.1rem;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.sidebar-nav li a:hover{
+    background: #31708f;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    background-color: #474a4c;
+}
+
+.orange-header {
+    border-top: 2px solid #cf6800;
+    background: -webkit-linear-gradient(bottom, #0c0d0d, #642e08);
+}
+
+.removed {
+    display: none;
+}
