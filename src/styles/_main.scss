@@ -20,18 +20,22 @@ body.elite-engineers .container-fluid {
     .engineer-header {
         content: url("../assets/drawables/engineer-header.png")
     }
-}
 
-#header h1 {
-    margin-bottom: 0;
-    font-size: 4rem;
-    padding: 1.1rem;
-    color: #f1921a;
-}
+    a {
+      text-decoration:none;
+    }
 
-#header img{
-    float: right;
-    margin-top: -105px;
+    h1 {
+      margin-bottom: 0;
+      font-size: 4rem;
+      padding: 1.1rem;
+      color: #f1921a;
+    }
+
+    img {
+      float: right;
+      margin-top: -105px;
+    }
 }
 
 #avatar, #avatar-quote, #history, #allegience, #home-system, #specialisations-list {
