@@ -4,33 +4,28 @@ import CraftingComponent from './CraftingComponent';
 import craftingComponent from '../models/craftingComponent';
 
 const CraftingComponentsTable = ({components}) => (
-  <table className="table table-striped">
+  <table className="table">
     <thead>
       <tr>
         <th>Personal Stock</th>
         <th>Component</th>
         <th>Type</th>
-        <th>Rarity</th>
         <th>Subtype</th>
-        <th>Loc 1</th>
-        <th>Loc 2</th>
-        <th>Loc 3</th>
-        <th>Ship Types</th>
-        <th colSpan="2">Info</th>
+        <th>Rarity</th>
+        <th>Location</th>
+        <th>Mission Reward</th>
       </tr>
     </thead>
     <tbody>
-      {components.map(component =>
-        <CraftingComponent key={component.name} component={component} />
+      {Object.keys(components).map(key =>
+        <CraftingComponent key={key} componentId={key} component={components[key]} />
       )}
     </tbody>
   </table>
 );
 
 CraftingComponentsTable.propTypes = {
-  components: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string.isRequired
-  })).isRequired
+  components: PropTypes.shape(PropTypes.shape().isRequired).isRequired
 };
 
 CraftingComponentsTable.defaultProps = {

@@ -5,12 +5,12 @@ class ComponentStock extends React.Component {
     super(props);
 
     this.state = {
-      stock: (localStorage[props.componentId] || 0)
+      stock: (localStorage[`component-${props.componentId}`] || 0)
     };
   }
 
   handleStockChange(e) {
-    localStorage[this.props.componentId] = e.target.value;
+    localStorage[`component-${this.props.componentId}`] = e.target.value;
     this.setState({stock: e.target.value});
   }
 
