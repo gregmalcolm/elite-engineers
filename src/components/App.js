@@ -1,14 +1,23 @@
 import React, { PropTypes } from 'react';
 import { Link, IndexLink } from 'react-router';
 
+import Heading from './Heading';
+import Sidebar from './Sidebar';
+
 const App = (props) => {
   return (
     <div>
-      <IndexLink to="/">Home</IndexLink>
-      &nbsp;
-      <Link to="/components">Components</Link>
-      <br/>
-      {props.children}
+      <div className="container-fluid">
+        <Heading />
+        <div className="row">
+          <div id="sidebar-column" className="col-md-2">
+            <Sidebar />
+          </div>
+          <div id="content-column" className="col-md-10">
+            {props.children}
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
