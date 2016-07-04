@@ -29,7 +29,7 @@ export default {
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.DefinePlugin(GLOBALS), // Tells React to build in prod mode. https://facebook.github.io/react/downloads.html
-    new CopyWebpackPlugin([{from: 'src/data', to: 'data'}]), // Copy json files to dist
+    new CopyWebpackPlugin([{from: 'node_modules/elite-engineers-data/src/data', to: 'data'}]), // Copy json files to dist
     new ExtractTextPlugin('styles.css'),
     new webpack.ProvidePlugin({
         $: "jquery",
