@@ -39,8 +39,8 @@ export default {
     loaders: [
       {test: /\.js$/, include: path.join(__dirname, 'src'), loaders: ['babel']},
       //Alternate font loaders in case we need them in the future
-      //for font-awesome
-      //{test: /\.eot(\?v=\d+.\d+.\d+)?$/, lo      {
+			//for font-awesome
+			//{
         //test: /\.woff2?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
         //// Limiting the size of the woff fonts breaks font-awesome ONLY for the extract text plugin
         //// loader: "url?limit=10000"
@@ -50,6 +50,7 @@ export default {
         //test: /\.(ttf|eot|svg)(\?[\s\S]+)?$/,
         //loader: 'file'
       //},
+      {test: /\.eot(\?v=\d+.\d+.\d+)?$/, loader: 'file'},
       {test: /\.(woff|woff2)$/, loader: 'file-loader?prefix=font/&limit=5000'},
       {test: /\.ttf(\?v=\d+.\d+.\d+)?$/, loader: 'file-loader?limit=10000&mimetype=application/octet-stream'},
       {test: /\.svg(\?v=\d+.\d+.\d+)?$/, loader: 'file-loader?limit=10000&mimetype=image/svg+xml'},
