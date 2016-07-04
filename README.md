@@ -54,7 +54,16 @@ npm run build
 ```
 
 If you didn’t want it to start a server:
+
 ```
 npm run build-only
 ```
+
 This will populate the dist folder with minified assets
+
+Finally, to deploy to AWS config the copy .env.example to .env, fill in the amazon keys required
+and run:
+
+```
+npm run deploy
+```

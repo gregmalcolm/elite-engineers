@@ -1,6 +1,6 @@
 @font-face {
     font-family: Michroma;
-    src: url(../assets/fonts/michroma.ttf);
+    src: url("../assets/fonts/michroma.ttf");
 }
 
 body {
@@ -16,6 +16,10 @@ body .container-fluid {
 #header {
     background-image: url("../assets/drawables/starry-background.jpg");
     width: 100%;
+
+    .engineer-header {
+        content: url("../assets/drawables/engineer-header.png")
+    }
 }
 
 #header h1 {

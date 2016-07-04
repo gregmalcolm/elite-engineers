@@ -12,7 +12,7 @@ const GLOBALS = {
   __DEV__: false
 };
 
-export default {
+let webpackConfig = {
   debug: true,
   devtool: 'source-map', // more info:https://webpack.github.io/docs/build-performance.html#sourcemaps and https://webpack.github.io/docs/configuration.html#devtool
   noInfo: true, // set to false to see a list of every file being bundled.
@@ -40,20 +40,7 @@ export default {
       "window.Tether": "tether"
     }),
     new webpack.optimize.DedupePlugin(),
-    new webpack.optimize.UglifyJsPlugin(),
-    new S3Plugin({
-      include: /.*/,
-      htmlFiles: 'index.html',
-      // s3Options are required
-      s3Options: {
-        accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-        region: 'us-east-1'
-      },
-      s3UploadOptions: {
-        Bucket: 'elite-engineers.com'
-      }
-    })
+    new webpack.optimize.UglifyJsPlugin()
   ],
   module: {
     loaders: [
@@ -62,7 +49,7 @@ export default {
       {test: /\.(woff|woff2)$/, loader: 'file-loader?prefix=font/&limit=5000'},
       {test: /\.ttf(\?v=\d+.\d+.\d+)?$/, loader: 'file-loader?limit=10000&mimetype=application/octet-stream'},
       {test: /\.svg(\?v=\d+.\d+.\d+)?$/, loader: 'file-loader?limit=10000&mimetype=image/svg+xml'},
-      {test: /\.(jpe?g|png|gif)$/i, loaders: ['file']},
+      {test: /\.(jpe?g|png|gif)$/i, loader: 'file'},
       {test: /\.ico$/, loader: 'file-loader?name=[name].[ext]'},
       {test: /jquery[\\\/]src[\\\/]selector\.js$/, loader: 'amd-define-factory-patcher-loader' },
       {
@@ -74,3 +61,23 @@ export default {
     ]
   }
 };
+
+if (process.env.DEPLOY) {
+  webpackConfig.plugins.push(
+    new S3Plugin({
+        include: /.*/,
+        htmlFiles: 'index.html',
+        // s3Options are required
+        s3Options: {
+          accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+          secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+          region: 'us-east-1'
+        },
+        s3UploadOptions: {
+          Bucket: 'elite-engineers.com'
+        }
+    })
+  );
+}
+
+export default webpackConfig;
