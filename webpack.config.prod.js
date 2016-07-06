@@ -74,7 +74,7 @@ if (process.env.DEPLOY) {
           region: 'us-east-1'
         },
         s3UploadOptions: {
-          Bucket: 'elite-engineers.com'
+          Bucket: 'elite-engineers.io'
         }
     })
   );
